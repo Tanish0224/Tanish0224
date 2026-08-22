@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 620" width="100%">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .theme { font-size: 18px; font-weight: 700; fill: #24292f; letter-spacing: 0.5px; }
+    .loc { font-size: 13px; font-weight: 700; fill: #57606a; letter-spacing: 0.5px; }
+    .desc { font-size: 15px; font-weight: 400; fill: #57606a; }
+    .line { stroke: #d0d7de; stroke-width: 2; }
+    .node { fill: #ffffff; stroke: #0969da; stroke-width: 3; }
+    
+    @media (prefers-color-scheme: dark) {
+      .theme { fill: #c9d1d9; }
+      .loc { fill: #8b949e; }
+      .desc { fill: #8b949e; }
+      .line { stroke: #30363d; }
+      .node { fill: #0d1117; stroke: #58a6ff; }
+    }
+  </style>
+
+  <!-- Vertical Connecting Line -->
+  <line class="line" x1="60" y1="50" x2="60" y2="550" />
+
+  <!-- Node 1 -->
+  <circle class="node" cx="60" cy="50" r="8" />
+  <text x="95" y="44" class="theme">CURIOSITY</text>
+  <text x="95" y="64" class="loc">STAR</text>
+  <text x="95" y="84" class="desc">Hands-on engineering</text>
+
+  <!-- Node 2 -->
+  <circle class="node" cx="60" cy="175" r="8" />
+  <text x="95" y="169" class="theme">SYSTEMS THINKING</text>
+  <text x="95" y="189" class="loc">HAL NASHIK</text>
+  <text x="95" y="209" class="desc">Interconnected disciplines</text>
+
+  <!-- Node 3 -->
+  <circle class="node" cx="60" cy="300" r="8" />
+  <text x="95" y="294" class="theme">INVESTIGATION</text>
+  <text x="95" y="314" class="loc">L&amp;T DEFENCE</text>
+  <text x="95" y="334" class="desc">Programming and data</text>
+
+  <!-- Node 4 -->
+  <circle class="node" cx="60" cy="425" r="8" />
+  <text x="95" y="419" class="theme">BUILDING THROUGH REALITY</text>
+  <text x="95" y="439" class="loc">GARUD</text>
+  <text x="95" y="459" class="desc">Concept to physical hardware</text>
+
+  <!-- Node 5 -->
+  <circle class="node" cx="60" cy="550" r="8" />
+  <text x="95" y="544" class="theme">TECHNICAL DEPTH</text>
+  <text x="95" y="564" class="loc">IIT KANPUR</text>
+  <text x="95" y="584" class="desc">Understand &#x2192; Validate &#x2192; Extend</text>
+</svg>

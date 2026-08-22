@@ -4,3 +4,24 @@ evidence/discovery/catalog.csv
 evidence/discovery/catalog.json
 evidence/discovery/duplicate-analysis.md
 evidence/discovery/project-roots.md
+# Local assets and external sub-repos not to be tracked in this profile repository
+/logos/
+/garud-tvc-rocket/
+
+# Design docs meant to remain local
+/docs/visual-design-reset.md
+/docs/visual-redesign-plan.md
+
+# Temporary visual previews
+/evidence/visual-review/
+
+# Scripts generated during visual design automation
+create_approach_svg.py
+fix_readme.py
+gen_svgs.py
+gen_wordmarks.py
+insert_approach.py
+insert_svg.py
+remove_generic_link.py
+rewrite_readme.py
+update_svg.py

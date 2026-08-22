@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="42" viewBox="0 0 65 42">
+  <style>
+    .text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      fill: #24292f;
+      letter-spacing: 1px;
+    }
+    @media (prefers-color-scheme: dark) {
+      .text { fill: #c9d1d9; }
+    }
+  </style>
+  <text x="50%" y="54%" font-size="24" class="text" text-anchor="middle" dominant-baseline="middle">MPI</text>
+</svg>

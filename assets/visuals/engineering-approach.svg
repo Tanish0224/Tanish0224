@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="100%">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <polygon points="0 1, 10 5, 0 9" class="arrow-fill" />
+    </marker>
+    <marker id="arrow-dash" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <polygon points="0 1, 10 5, 0 9" class="arrow-dash-fill" />
+    </marker>
+  </defs>
+
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; text-anchor: middle; }
+    .title { font-size: 16px; font-weight: 700; fill: #24292f; letter-spacing: 0.5px; }
+    .desc { font-size: 13px; font-weight: 400; fill: #57606a; }
+    
+    .path-solid { stroke: #d0d7de; stroke-width: 3; fill: none; }
+    .path-dash { stroke: #0969da; stroke-width: 2.5; stroke-dasharray: 6 5; fill: none; }
+    .node { fill: #ffffff; stroke: #0969da; stroke-width: 3.5; }
+    
+    .arrow-fill { fill: #d0d7de; }
+    .arrow-dash-fill { fill: #0969da; }
+    
+    @media (prefers-color-scheme: dark) {
+      .title { fill: #c9d1d9; }
+      .desc { fill: #8b949e; }
+      
+      .path-solid { stroke: #30363d; }
+      .path-dash { stroke: #58a6ff; }
+      .node { fill: #0d1117; stroke: #58a6ff; }
+      
+      .arrow-fill { fill: #30363d; }
+      .arrow-dash-fill { fill: #58a6ff; }
+    }
+  </style>
+
+  <!-- Solid Flow Paths -->
+  <path class="path-solid" marker-end="url(#arrow)" d="M 135 60 L 380 60" />
+  <path class="path-solid" marker-end="url(#arrow)" d="M 415 60 L 660 60" />
+  <path class="path-solid" marker-end="url(#arrow)" d="M 695 60 L 760 60 L 760 220 L 700 220" />
+  <path class="path-solid" marker-end="url(#arrow)" d="M 665 220 L 420 220" />
+  <path class="path-solid" marker-end="url(#arrow)" d="M 385 220 L 140 220" />
+  <path class="path-solid" marker-end="url(#arrow)" d="M 105 220 L 40 220 L 40 380 L 380 380" />
+
+  <!-- Iteration Path -->
+  <path class="path-dash" marker-end="url(#arrow-dash)" d="M 125 205 C 190 170, 190 110, 125 75" />
+
+  <!-- Nodes and Text -->
+  
+  <!-- 1. UNDERSTAND -->
+  <circle class="node" cx="120" cy="60" r="11" />
+  <text x="120" y="95" class="title">UNDERSTAND</text>
+  <text x="120" y="115" class="desc">System &amp; constraints</text>
+
+  <!-- 2. BREAK DOWN -->
+  <circle class="node" cx="400" cy="60" r="11" />
+  <text x="400" y="95" class="title">BREAK DOWN</text>
+  <text x="400" y="115" class="desc">Components &amp; interactions</text>
+
+  <!-- 3. BASELINE -->
+  <circle class="node" cx="680" cy="60" r="11" />
+  <text x="680" y="95" class="title">BASELINE</text>
+  <text x="680" y="115" class="desc">Establish known behaviour</text>
+
+  <!-- 4. INVESTIGATE -->
+  <circle class="node" cx="680" cy="220" r="11" />
+  <text x="680" y="255" class="title">INVESTIGATE</text>
+  <text x="680" y="275" class="desc">Analyse, simulate, test</text>
+
+  <!-- 5. BUILD -->
+  <circle class="node" cx="400" cy="220" r="11" />
+  <text x="400" y="255" class="title">BUILD</text>
+  <text x="400" y="275" class="desc">Design, code, fabricate</text>
+
+  <!-- 6. VALIDATE -->
+  <circle class="node" cx="120" cy="220" r="11" />
+  <text x="120" y="255" class="title">VALIDATE</text>
+  <text x="120" y="275" class="desc">Compare against reality</text>
+
+  <!-- 7. IMPROVE -->
+  <circle class="node" cx="400" cy="380" r="11" />
+  <text x="400" y="415" class="title">IMPROVE</text>
+  <text x="400" y="435" class="desc">Question assumptions &amp; extend</text>
+
+</svg>

@@ -163,5 +163,5 @@ The tools change with the problem, but the process remains consistent: understan
 
 ## HOW TO REACH ME
 
-**[LinkedIn](https://www.linkedin.com/in/tanish-shetty/)** &nbsp;&nbsp;•&nbsp;&nbsp; **[Email](mailto:tanish0224@gmail.com)** &nbsp;&nbsp;•&nbsp;&nbsp; **[GitHub](https://github.com/Tanish0224)**
+**[LinkedIn](https://www.linkedin.com/in/tanish-shetty02/)** &nbsp;&nbsp;•&nbsp;&nbsp; **[Email](mailto:tanish.shetty2002@gmail.com)** &nbsp;&nbsp;•&nbsp;&nbsp; **[GitHub](https://github.com/Tanish0224)**
 

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="100%" height="100%">
+  <defs>
+    <style>
+      .grid { stroke: #e5e7eb; stroke-width: 1; }
+      .struct-line { stroke: #94a3b8; stroke-width: 1.5; }
+      .struct-node { fill: #f8fafc; stroke: #64748b; stroke-width: 2; }
+      .streamline { fill: none; stroke: #3b82f6; stroke-width: 1.5; opacity: 0.6; }
+      .data-bar { fill: #cbd5e1; }
+      .data-text { fill: #94a3b8; font-family: monospace; font-size: 10px; }
+      @media (prefers-color-scheme: dark) {
+        .grid { stroke: #1f2937; }
+        .struct-line { stroke: #475569; }
+        .struct-node { fill: #0f172a; stroke: #94a3b8; }
+        .streamline { stroke: #60a5fa; opacity: 0.4; }
+        .data-bar { fill: #334155; }
+        .data-text { fill: #64748b; }
+      }
+    </style>
+  </defs>
+  
+  <!-- Background Grid -->
+  <pattern id="gridPattern" width="40" height="40" patternUnits="userSpaceOnUse">
+    <rect width="40" height="40" fill="none" class="grid" />
+  </pattern>
+  <rect width="800" height="300" fill="url(#gridPattern)" />
+  
+  <!-- Physical Systems (Left) -->
+  <g transform="translate(60, 50)">
+    <path d="M 40,150 L 120,40 L 200,120 L 160,200 L 40,150 Z" class="struct-line" fill="none"/>
+    <path d="M 120,40 L 160,200" class="struct-line" />
+    <path d="M 40,150 L 200,120" class="struct-line" />
+    <circle cx="40" cy="150" r="5" class="struct-node" />
+    <circle cx="120" cy="40" r="5" class="struct-node" />
+    <circle cx="200" cy="120" r="5" class="struct-node" />
+    <circle cx="160" cy="200" r="5" class="struct-node" />
+  </g>
+
+  <!-- Analysis / CFD Streamlines (Center) -->
+  <g transform="translate(280, 0)">
+    <path d="M 0,100 C 100,100 150,50 300,80" class="streamline" />
+    <path d="M 0,130 C 120,130 180,70 300,110" class="streamline" />
+    <path d="M 0,160 C 140,160 210,90 300,140" class="streamline" />
+    <path d="M 0,190 C 160,190 240,110 300,170" class="streamline" />
+    <path d="M 0,220 C 180,220 270,130 300,200" class="streamline" />
+  </g>
+
+  <!-- Computation / Code (Right) -->
+  <g transform="translate(640, 60)">
+    <rect x="0" y="20" width="80" height="4" class="data-bar" rx="2" />
+    <rect x="0" y="40" width="120" height="4" class="data-bar" rx="2" />
+    <rect x="0" y="60" width="50" height="4" class="data-bar" rx="2" />
+    <rect x="0" y="80" width="100" height="4" class="data-bar" rx="2" />
+    <rect x="0" y="100" width="140" height="4" class="data-bar" rx="2" />
+    <rect x="0" y="120" width="70" height="4" class="data-bar" rx="2" />
+    
+    <text x="0" y="155" class="data-text">0x7F2A CODE EXEC</text>
+    <text x="0" y="170" class="data-text">SYS.ALLOC(0x1000)</text>
+    <text x="0" y="185" class="data-text">TENSOR_CALC_INIT</text>
+  </g>
+</svg>

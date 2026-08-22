@@ -1,0 +1,17 @@
+{
+  "evidence_id": null,
+  "project": null,
+  "source_type": null,
+  "source_file": null,
+  "authenticity_status": "UNKNOWN",
+  "confidentiality_status": "UNKNOWN",
+  "publication_status": "PENDING",
+  "evidence_type": null,
+  "description": null,
+  "capture_date": null,
+  "source_context": null,
+  "technical_review_status": "PENDING",
+  "approval_status": "PENDING",
+  "public_asset_path": null,
+  "notes": null
+}

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 250" width="100%" height="100%">
+  <defs>
+    <style>
+      .text-main { fill: #1f2937; font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; font-size: 11px; font-weight: 600; text-anchor: middle; }
+      .text-light { fill: #ffffff; font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace; font-size: 11px; font-weight: 600; text-anchor: middle; }
+      .chevron-base { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 1.5; }
+      .chevron-dark { fill: #3b82f6; stroke: #2563eb; stroke-width: 1.5; }
+      .data-bus { stroke: #cbd5e1; stroke-width: 6; fill: none; stroke-linecap: square; }
+      @media (prefers-color-scheme: dark) {
+        .text-main { fill: #f3f4f6; }
+        .text-light { fill: #ffffff; }
+        .chevron-base { fill: #1e293b; stroke: #334155; }
+        .chevron-dark { fill: #1d4ed8; stroke: #1e40af; }
+        .data-bus { stroke: #334155; }
+      }
+    </style>
+  </defs>
+
+  <!-- Data Bus connecting R1 to R2 -->
+  <path d="M 640,100 L 640,150" class="data-bus" />
+  
+  <g transform="translate(0, 0)">
+    <!-- ROW 1 (L -> R) -->
+    <!-- 1. EXISTING CODEBASE (flat left) -->
+    <!-- X: 40 to 180 (w:140) -->
+    <polygon points="40,60 165,60 180,80 165,100 40,100" class="chevron-dark" />
+    <text x="105" y="84" class="text-light">EXISTING CODEBASE</text>
+    
+    <!-- 2. UNDERSTAND -->
+    <!-- X: 185 to 315 (w:130) -->
+    <polygon points="185,60 300,60 315,80 300,100 185,100 200,80" class="chevron-base" />
+    <text x="255" y="84" class="text-main">UNDERSTAND</text>
+    
+    <!-- 3. TRACE PARAMETERS -->
+    <!-- X: 320 to 480 (w:160) -->
+    <polygon points="320,60 465,60 480,80 465,100 320,100 335,80" class="chevron-base" />
+    <text x="405" y="84" class="text-main">TRACE PARAMETERS</text>
+    
+    <!-- 4. ESTABLISH BASELINE -->
+    <!-- X: 485 to 655 (w:170) -->
+    <polygon points="485,60 640,60 655,80 640,100 485,100 500,80" class="chevron-base" />
+    <text x="575" y="84" class="text-main">ESTABLISH BASELINE</text>
+
+    <!-- ROW 2 (R -> L) -->
+    <!-- 5. VALIDATE (Left pointing) -->
+    <!-- X: 525 to 655 (w:130) -->
+    <polygon points="655,150 540,150 525,170 540,190 655,190 640,170" class="chevron-base" />
+    <text x="595" y="174" class="text-main">VALIDATE</text>
+
+    <!-- 6. REFINE -->
+    <!-- X: 390 to 520 (w:130) -->
+    <polygon points="520,150 405,150 390,170 405,190 520,190 505,170" class="chevron-base" />
+    <text x="460" y="174" class="text-main">REFINE</text>
+
+    <!-- 7. EXTEND -->
+    <!-- X: 255 to 385 (w:130) -->
+    <polygon points="385,150 270,150 255,170 270,190 385,190 370,170" class="chevron-base" />
+    <text x="325" y="174" class="text-main">EXTEND</text>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 250" width="100%" height="100%">
+  <defs>
+    <style>
+      .title { fill: #1f2937; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.5px; }
+      .desc { fill: #64748b; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 11px; }
+      .track { stroke: #cbd5e1; stroke-width: 3; fill: none; stroke-linecap: round; }
+      .node-dot { fill: #ffffff; stroke: #3b82f6; stroke-width: 2.5; }
+      @media (prefers-color-scheme: dark) {
+        .title { fill: #f3f4f6; }
+        .desc { fill: #94a3b8; }
+        .track { stroke: #334155; }
+        .node-dot { fill: #0f172a; stroke: #60a5fa; }
+      }
+    </style>
+  </defs>
+
+  <!-- Serpentine Track -->
+  <path d="M 100,70 L 640,70 C 690,70 690,180 640,180 L 280,180" class="track" />
+
+  <!-- 1. FOUNDATIONS -->
+  <circle cx="100" cy="70" r="6" class="node-dot" />
+  <text x="100" y="45" class="title" text-anchor="middle">FOUNDATIONS</text>
+
+  <!-- 2. EXPLORATION -->
+  <circle cx="280" cy="70" r="6" class="node-dot" />
+  <text x="280" y="45" class="title" text-anchor="middle">EXPLORATION</text>
+
+  <!-- 3. BUILDING -->
+  <circle cx="460" cy="70" r="6" class="node-dot" />
+  <text x="460" y="45" class="title" text-anchor="middle">BUILDING</text>
+
+  <!-- 4. COMPUTATIONAL GROWTH -->
+  <circle cx="640" cy="70" r="6" class="node-dot" />
+  <text x="640" y="45" class="title" text-anchor="middle">COMPUTATIONAL</text>
+  <text x="640" y="105" class="desc" text-anchor="middle">CFD &amp; HPC</text>
+
+  <!-- 5. RESEARCH -->
+  <circle cx="640" cy="180" r="6" class="node-dot" />
+  <text x="640" y="215" class="title" text-anchor="middle">RESEARCH</text>
+
+  <!-- 6. ENGINEERING IN CONTEXT -->
+  <circle cx="460" cy="180" r="6" class="node-dot" />
+  <text x="460" y="215" class="title" text-anchor="middle">IN CONTEXT</text>
+
+  <!-- 7. CONTINUOUS GROWTH -->
+  <circle cx="280" cy="180" r="6" class="node-dot" />
+  <text x="280" y="215" class="title" text-anchor="middle">CONTINUOUS GROWTH</text>
+</svg>

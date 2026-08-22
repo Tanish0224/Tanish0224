@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="100%" height="100%">
+  <defs>
+    <style>
+      .text-node { fill: #f8fafc; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 11px; font-weight: 600; text-anchor: middle; }
+      .path-line { stroke: #3b82f6; stroke-width: 2; fill: none; stroke-dasharray: 4 4; }
+      .bar { fill: #1e293b; stroke: #3b82f6; stroke-width: 1.5; rx: 12; }
+      .bar-end { fill: #2563eb; stroke: #60a5fa; stroke-width: 1.5; rx: 12; }
+      .text-end { fill: #ffffff; font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 11px; font-weight: 600; text-anchor: middle; }
+      @media (prefers-color-scheme: dark) {
+        .bar { fill: #0f172a; stroke: #1d4ed8; }
+        .text-node { fill: #cbd5e1; }
+        .path-line { stroke: #1d4ed8; }
+      }
+    </style>
+  </defs>
+
+  <!-- Central computational thread -->
+  <path d="M 250,32 L 150,82 L 350,132 L 150,182 L 350,232 L 250,282" class="path-line" />
+
+  <!-- 1. PHYSICAL/NUMERICAL PROBLEM -->
+  <rect x="150" y="20" width="200" height="24" class="bar" />
+  <text x="250" y="36" class="text-node">PHYSICAL/NUMERICAL PROBLEM</text>
+
+  <!-- 2. CPU BASELINE -->
+  <rect x="70" y="70" width="160" height="24" class="bar" />
+  <text x="150" y="86" class="text-node">CPU BASELINE</text>
+
+  <!-- 3. GPU IMPLEMENTATION -->
+  <rect x="270" y="120" width="160" height="24" class="bar" />
+  <text x="350" y="136" class="text-node">GPU IMPLEMENTATION</text>
+
+  <!-- 4. PROFILING -->
+  <rect x="70" y="170" width="160" height="24" class="bar" />
+  <text x="150" y="186" class="text-node">PROFILING</text>
+
+  <!-- 5. OPTIMISATION -->
+  <rect x="270" y="220" width="160" height="24" class="bar" />
+  <text x="350" y="236" class="text-node">OPTIMISATION</text>
+
+  <!-- 6. PERFORMANCE VALIDATION -->
+  <rect x="150" y="270" width="200" height="24" class="bar-end" />
+  <text x="250" y="286" class="text-end">PERFORMANCE VALIDATION</text>
+
+</svg>

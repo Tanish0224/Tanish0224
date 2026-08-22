@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 160" width="100%" height="100%">
+  <defs>
+    <style>
+      .text-node { fill: #475569; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.5px; text-anchor: middle;}
+      .arrow { stroke: #94a3b8; stroke-width: 2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+      @media (prefers-color-scheme: dark) {
+        .text-node { fill: #9ca3af; }
+        .arrow { stroke: #475569; }
+      }
+    </style>
+  </defs>
+
+  <!-- PERSONAL ENGINEERING PROJECTS -->
+  <text x="150" y="55" class="text-node">PERSONAL ENGINEERING PROJECTS</text>
+  
+  <!-- Arrow Right -->
+  <path d="M 280,51 L 315,51 M 310,47 L 315,51 L 310,55" class="arrow" />
+
+  <!-- IN PROGRESS -->
+  <text x="380" y="55" class="text-node">IN PROGRESS</text>
+  
+  <!-- Arrow Down -->
+  <path d="M 380,70 L 380,95 M 376,90 L 380,95 L 384,90" class="arrow" />
+
+  <!-- NEW EVIDENCE -->
+  <text x="380" y="125" class="text-node">NEW EVIDENCE</text>
+
+  <!-- Arrow Left -->
+  <path d="M 315,121 L 280,121 M 285,117 L 280,121 L 285,125" class="arrow" />
+
+  <!-- RESEARCH MILESTONES -->
+  <text x="150" y="125" class="text-node">RESEARCH MILESTONES</text>
+
+</svg>

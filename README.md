@@ -115,7 +115,7 @@ The tools change with the problem. The approach does not: understand the system,
 
 **Data & Workflow**  
 <br>
-<img src="assets/logos/sql.png" height="42" title="SQL" /> &nbsp;&nbsp; <img src="assets/logos/pandas.svg" height="42" title="Pandas" /> &nbsp;&nbsp; <img src="assets/logos/git.svg" height="42" title="Git" /> &nbsp;&nbsp; <img src="assets/logos/github.svg" height="42" title="GitHub" />
+<img src="assets/logos/sql.png" height="42" title="SQL" /> &nbsp;&nbsp; <img src="assets/logos/pandas.svg" height="42" title="Pandas" /> &nbsp;&nbsp; <img src="assets/logos/numpy.svg" height="42" title="NumPy" /> &nbsp;&nbsp; <img src="assets/logos/matplotlib.svg" height="42" title="Matplotlib" /> &nbsp;&nbsp; <img src="assets/logos/git.svg" height="42" title="Git" /> &nbsp;&nbsp; <img src="assets/logos/github.svg" height="42" title="GitHub" />
 <br><br>
 
 ---

@@ -19,17 +19,13 @@ Aerospace is where much of my journey began, but I have gradually realised that 
 ### 01 | WHERE IT STARTED
 **Curiosity needed somewhere to go**
 
-My first real exposure to engineering beyond classrooms came through Space Technology and Aeronautical Rocketry (STAR). Until then, engineering had largely existed as something to study: equations, diagrams, theories, and problems with known answers.
+My first real exposure to engineering beyond the classroom came through Space Technology and Aeronautical Rocketry (STAR).
 
-STAR changed that.
+Until then, engineering had largely existed as equations, theories, and problems with known answers. STAR changed that. For the first time, I was around systems that had to be assembled, tested, understood, and made to work.
 
-For the first time, I found myself closer to the practical side of engineering, working around systems that had to be assembled, tested, understood and made to work. The experience introduced me to something that has remained important throughout my journey: there is a significant difference between understanding how something is supposed to work and actually making it work in the real world.
+It taught me something that has stayed with me: there is a difference between understanding how something should work and actually making it work. Things do not always fit perfectly, components interact in unexpected ways, and systems can behave differently in reality than they do on paper.
 
-Things do not always fit perfectly. Components interact in unexpected ways. A small mistake can create a much larger problem somewhere else. A system that works on paper can behave differently once it is assembled and tested. Those experiences made engineering feel less like the search for the correct answer and more like an iterative process of understanding, experimenting, failing, improving and trying again.
-
-This was also where I began to understand what I was naturally drawn toward. I enjoyed asking questions that went beyond the immediate task. I wanted to know why something was designed a certain way, what would happen if it changed, and how the different parts of a system affected one another.
-
-Looking back, this was not necessarily where I decided that aerospace would define my career. It was where curiosity became something I could build with.
+This was where engineering became an iterative process for me: understanding, experimenting, failing, improving, and trying again. It was also where curiosity became something I could build with.
 
 ### 02 | WHEN ENGINEERING BECAME REAL
 **Seeing the scale behind the system**

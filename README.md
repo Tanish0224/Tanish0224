@@ -100,12 +100,12 @@ The tools change with the problem. The approach does not: understand the system,
 
 **Design & Engineering**  
 <br>
-<img src="assets/logos/solidworks.png" height="42" title="SolidWorks" /> &nbsp;&nbsp; <img src="assets/logos/siemens-nx.svg" height="42" title="Siemens NX" /> &nbsp;&nbsp; <img src="assets/logos/fusion.png" height="42" title="Fusion 360" /> &nbsp;&nbsp; <img src="assets/logos/ansys.png" height="42" title="ANSYS" /> &nbsp;&nbsp; <img src="assets/logos/rocksim.svg" height="42" title="RockSim" />
+<img src="assets/logos/solidworks.png" height="42" title="SolidWorks" /> &nbsp;&nbsp; <img src="assets/logos/siemens-nx.png" height="42" title="Siemens NX" /> &nbsp;&nbsp; <img src="assets/logos/fusion.png" height="42" title="Fusion 360" /> &nbsp;&nbsp; <img src="assets/logos/ansys.png" height="42" title="ANSYS" /> &nbsp;&nbsp; <img src="assets/logos/rocksim.svg" height="42" title="RockSim" />
 <br><br>
 
 **Simulation & Analysis**  
 <br>
-<img src="assets/logos/matlab.png" height="42" title="MATLAB" /> &nbsp;&nbsp; <img src="assets/logos/simulink.svg" height="42" title="Simulink" /> &nbsp;&nbsp; <img src="assets/logos/paraview.png" height="42" title="ParaView" /> &nbsp;&nbsp; <img src="assets/logos/incompact3d.svg" height="42" title="Incompact3D" /> &nbsp;&nbsp; <img src="assets/logos/tecplot.png" height="42" title="Tecplot" />
+<img src="assets/logos/matlab.svg" height="42" title="MATLAB" /> &nbsp;&nbsp; <img src="assets/logos/simulink.svg" height="42" title="Simulink" /> &nbsp;&nbsp; <img src="assets/logos/paraview.png" height="42" title="ParaView" /> &nbsp;&nbsp; <img src="assets/logos/incompact3d.svg" height="42" title="Incompact3D" /> &nbsp;&nbsp; <img src="assets/logos/tecplot.png" height="42" title="Tecplot" />
 <br><br>
 
 **Programming & Computing**  

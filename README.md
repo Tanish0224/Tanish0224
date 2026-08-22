@@ -128,7 +128,7 @@ The tools change with the problem, but the process remains consistent: understan
 
 ---
 
-## WHAT I HAVE BUILT
+## KEY PROJECTS
 
 | 🚀 [**Project GARUD**](https://github.com/Tanish0224/garud-tvc-rocket) |
 | :--- |

@@ -100,7 +100,7 @@ The tools change with the problem. The approach does not: understand the system,
 
 **Design & Engineering**  
 <br>
-<img src="assets/logos/solidworks.png" height="42" title="SolidWorks" /> &nbsp;&nbsp; <img src="assets/logos/siemens-nx.png" height="42" title="Siemens NX" /> &nbsp;&nbsp; <img src="assets/logos/fusion.png" height="42" title="Fusion 360" /> &nbsp;&nbsp; <img src="assets/logos/ansys.png" height="42" title="ANSYS" /> &nbsp;&nbsp; <img src="assets/logos/rocksim.svg" height="42" title="RockSim" />
+<img src="assets/logos/solidworks.png" height="42" title="SolidWorks" /> &nbsp;&nbsp; <img src="assets/logos/siemens-nx.svg" height="42" title="Siemens NX" /> &nbsp;&nbsp; <img src="assets/logos/fusion.png" height="42" title="Fusion 360" /> &nbsp;&nbsp; <img src="assets/logos/ansys.png" height="42" title="ANSYS" /> &nbsp;&nbsp; <img src="assets/logos/rocksim.svg" height="42" title="RockSim" />
 <br><br>
 
 **Simulation & Analysis**  

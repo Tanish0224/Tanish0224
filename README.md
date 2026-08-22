@@ -21,97 +21,76 @@ Aerospace is where much of my journey began, but I have gradually realised that 
 
 My first real exposure to engineering beyond the classroom came through Space Technology and Aeronautical Rocketry (STAR).
 
-Until then, engineering had largely existed as equations, theories, and problems with known answers. STAR changed that. For the first time, I was around systems that had to be assembled, tested, understood, and made to work.
+Until then, engineering had largely existed as equations, theories and problems with known answers. STAR changed that. For the first time, I was around systems that had to be assembled, tested, understood and made to work.
 
-It taught me something that has stayed with me: there is a difference between understanding how something should work and actually making it work. Things do not always fit perfectly, components interact in unexpected ways, and systems can behave differently in reality than they do on paper.
+It taught me something that has stayed with me: there is a difference between understanding how something should work and actually making it work. Things do not always fit perfectly, components interact in unexpected ways and systems can behave differently in reality than they do on paper.
 
-This was where engineering became an iterative process for me: understanding, experimenting, failing, improving, and trying again. It was also where curiosity became something I could build with.
+This was where engineering became an iterative process for me: understanding, experimenting, failing, improving and trying again. It was also where curiosity became something I could build with.
 
 ### 02 | WHEN ENGINEERING BECAME REAL
 **Seeing the scale behind the system**
 
-My experience at HAL Nashik was one of the moments when engineering became real in a completely different way.
+My experience at HAL Nashik gave me a different perspective on engineering.
 
-I had studied aircraft systems and components before, but seeing large, complex aerospace systems up close gave me a different perspective. I was able to observe environments involving aircraft, propulsion, structures, avionics, radar systems, subsystem integration and overhaul operations. For the first time, the individual topics I had encountered in my studies began to feel like parts of a much larger whole.
+I had studied aircraft systems and components before, but seeing large aerospace systems up close showed me how individual disciplines fit into a much larger whole. I was exposed to environments involving aircraft, propulsion, structures, avionics, radar systems, subsystem integration and overhaul operations.
 
-What stood out to me was that a complex engineering product does not exist because one component was designed well. It exists because an enormous number of decisions, processes and systems have to work together.
+What stood out was that a complex engineering product does not exist because one component was designed well. It exists because design, manufacturing, assembly, inspection, integration, testing and maintenance all have to work together.
 
-Design is connected to manufacturing. Manufacturing is connected to assembly. Assembly is connected to inspection and integration. Integration is connected to testing, maintenance, reliability and long-term operation.
+That shifted how I viewed engineering. I began thinking less about individual components in isolation and more about the systems and interfaces connecting them.
 
-That was an important shift in how I viewed engineering. I began to think less about individual components in isolation and more about systems.
-
-My experience at HAL also made me appreciate the engineering behind things that are easy to overlook from a distance. An aircraft in flight is the visible result of a much larger ecosystem of design, production, inspection, integration, maintenance and human expertise.
-
-Aerospace was the environment in which I saw this, but the lesson itself was broader: real engineering happens at the interfaces between disciplines.
+Aerospace was where I saw this, but the lesson was broader: real engineering happens at the interfaces between disciplines.
 
 ### 03 | FOLLOWING CURIOSITY FURTHER
 **When a requirement became an investigation**
 
-At L&T Defence, I worked on a research problem involving VTOL UAVs. The original task was relatively straightforward: investigate existing systems and use the available information to support the development of requirements.
+At L&T Defence, I worked on a research problem involving VTOL UAVs. The original task was to study existing systems and use the available information to support the development of requirements.
 
-But I found it difficult to stop there.
+But I wanted to understand the wider design space rather than simply collect examples. Why did different aircraft use particular configurations? How were payload, endurance, dimensions, propulsion and mission requirements related? What trade-offs were designers making?
 
-I wanted to understand the wider design space rather than simply collect a few examples and produce an average specification. The more I looked at existing platforms, the more questions appeared. Why did some aircraft have particular configurations? How were payload, endurance, dimensions, propulsion and mission requirements related? What trade-offs were different designers making?
+What began as a requirement study became a larger investigation. Using Python and SQL, I built a structured database of more than 170 VTOL UAV platforms that could be queried and compared to identify patterns across the design space.
 
-What began as a requirement study gradually became a larger investigation.
-
-Using Python and SQL, I built and worked with a structured database of more than 170 VTOL UAV platforms. The goal was not simply to collect specifications. I wanted a framework that could be explored, queried and compared in a way that helped reveal patterns across the existing landscape.
-
-This experience was important because it introduced me to programming and data as engineering tools. Python and SQL were not being used in isolation; they became part of the process of understanding a technical problem.
-
-It also reinforced something that has followed me through later projects: the original question is not always the whole problem.
-
-Sometimes the most useful thing you can do is pause, look beyond the immediate requirement, and ask whether there is a better way to understand the system before making a decision.
-
+This was also where programming and data became engineering tools for me. It reinforced a lesson that has followed me since: the original question is not always the whole problem. Sometimes you need to look beyond the immediate requirement before deciding what the system is really telling you.
 ### 04 | GARUD
 **Thrust-Vector-Controlled Model Rocket**
 
 GARUD was where several parts of my engineering journey came together.
 
-The project began with an ambitious idea: develop a thrust-vector-controlled model rocket and take it through the journey from concept toward a functioning physical system.
+The project began with an ambitious idea: develop a thrust-vector-controlled model rocket and take it from concept to a functioning physical system.
 
-That meant dealing with engineering as a chain rather than a collection of separate tasks:
+That meant treating engineering as a connected chain rather than a collection of separate tasks:
 
 concept → simulation → design → analysis → fabrication → integration → testing
 
-Different stages required different tools and different ways of thinking. We worked with trajectory and flight analysis, CAD design, structural considerations, modelling and control-related work, fabrication and the integration of physical hardware.
+Different stages required different tools and different ways of thinking. We worked with trajectory and flight analysis, CAD design, structural considerations, modelling and control, fabrication and the integration of physical hardware.
 
 But the most valuable part of GARUD was what happened between those stages.
 
-A model can look correct on a computer while being difficult to manufacture. A design can work individually while creating integration problems when combined with other components. Parts that appear to fit digitally still have to deal with tolerances, fabrication limitations, assembly, wiring, hardware constraints and the practical uncertainty that comes with building something real.
+A model can look correct on a computer while being difficult to manufacture. A design can work individually while creating integration problems when combined with other components. Parts that fit digitally still have to deal with tolerances, fabrication limitations, assembly, wiring and hardware constraints.
 
-GARUD forced me to think about engineering as an end-to-end process.
+GARUD forced me to think about engineering as an end-to-end process. The goal was no longer simply to create a good CAD model or complete an analysis. Every decision eventually had to survive the transition to physical hardware.
 
-The goal was no longer simply to create a good CAD model or complete an analysis. Every decision eventually had to survive the transition to physical hardware. Design had to communicate with fabrication. Fabrication had to communicate with integration. Integration had to communicate with testing.
+Design had to communicate with fabrication. Fabrication had to communicate with integration. Integration had to communicate with testing.
 
-That is why GARUD remains one of the strongest experiences in my journey.
-
-The application was a rocket, but what I learned was much broader: engineering becomes most interesting when an idea has to survive reality.
+That is why GARUD remains one of the strongest experiences in my journey. The application was a rocket, but what I learned was much broader: engineering becomes most interesting when an idea has to survive reality.
 
 ### 05 | IIT KANPUR
 **Choosing the Harder Room**
 
 Coming to IIT Kanpur was a deliberate decision to place myself in a more demanding environment.
 
-I did not come expecting to already know enough. I came because I wanted to be around harder problems, stronger technical foundations, and people who could challenge the way I thought.
-
-That experience has changed the way I approach engineering problems.
+I did not come expecting to already know enough. I came to work around harder problems, build stronger technical foundations and be challenged by people and ideas that could change the way I think.
 
 My current work involves computational engineering and fluid mechanics, but one principle has become increasingly important to me:
 
 Before trying to change a complex system, first understand it.
 
-When working with an existing computational workflow, the temptation can be to immediately modify the code, add a new feature or move toward the final objective. I have learned that this can be the wrong place to begin.
+Whether working with an existing computational workflow, a physical system, a CAD design, a dataset or a large codebase, the temptation is often to immediately modify something or move towards the final objective. I have learned that this is not always the right place to begin.
 
-First understand the system.
-
-Understand how the pieces are connected. Establish a baseline. Reproduce known behaviour. Validate against trusted reference data. Question assumptions. Find out what the existing implementation is actually doing before deciding what should be changed.
+First understand how the pieces are connected. Establish a baseline. Reproduce known behaviour. Validate against evidence. Question assumptions. Find out what the existing system is actually doing before deciding what should change.
 
 Only then is there a trustworthy foundation for extending the work.
 
-This way of thinking now goes beyond computational research for me. Whether I am looking at a physical system, a CAD design, a dataset or a large codebase, I increasingly believe that understanding is an engineering tool in itself.
-
-IIT Kanpur is the current chapter of that journey. It represents not an endpoint, but a willingness to keep choosing environments and problems that demand more from me than the version of myself that arrived there.
+IIT Kanpur is the current chapter of that journey. It is not an endpoint but a willingness to keep choosing environments and problems that demand more from me than the version of myself that arrived there.
 
 ---
 

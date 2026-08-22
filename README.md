@@ -132,7 +132,19 @@ The tools change with the problem, but the process remains consistent: understan
 
 | 🚀 [**Project GARUD**](https://github.com/Tanish0224/garud-tvc-rocket) |
 | :--- |
-| **Thrust-Vector-Controlled Model Rocket** <br> A complete engineering lifecycle project moving from concept and trajectory simulation through to physical fabrication, hardware integration, and testing. |
+| **Thrust-Vector-Controlled Model Rocket** <br> Represents multidisciplinary systems engineering, CAD/mechanical design, control, fabrication and physical hardware integration. |
+
+<br>
+
+| ⚡ [**GPU-Accelerated CFD**](https://github.com/Tanish0224/gpu-accelerated-cfd) |
+| :--- |
+| **High-Performance GPU Compressible Flow Solver** <br> Represents computational engineering, HPC, GPU programming, CUDA/NVIDIA Warp and performance optimization. |
+
+<br>
+
+| 🚁 [**VTOL UAV Performance & Specification Analysis**](https://github.com/Tanish0224/vtol-uav-performance-analysis) |
+| :--- |
+| **Aerospace Systems Design Investigation** <br> Represents aerospace systems research, Python, SQL, databases and data-driven engineering analysis. |
 
 ---
 

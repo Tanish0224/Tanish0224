@@ -6,13 +6,13 @@ I tend to take engineering work beyond the first acceptable answer—understandi
 
 ![Engineering Identity](assets/identity/hero-identity.svg)
 
+![Engineering Toolkit](assets/diagrams/engineering-toolkit.svg)
+
 ---
 
 ## The Way I Work
 
 Across projects, a consistent pattern has emerged in how I approach engineering problems: understand the system, explore beyond the initial requirement, build or model the solution, analyse the results, validate assumptions, improve the work and continue from there.
-
-![Engineering Loop](assets/diagrams/engineering-loop.svg)
 
 ---
 
@@ -63,8 +63,6 @@ Exploration gave me exposure to different engineering environments. The next sta
 *Thrust Vector Control Model Rocket*
 
 A complete engineering system from concept to physical testing.
-
-![GARUD Engineering Lifecycle](assets/diagrams/garud-lifecycle.svg)
 
 GARUD began as a final-year project to design, analyse, fabricate and test a thrust-vector-controlled model rocket. The project required more than developing a single design or simulation model: the challenge was to connect the complete engineering chain—from defining the system and developing the design to analysing its behaviour, fabricating components, integrating the physical system and carrying the work through testing.
 
@@ -138,27 +136,12 @@ The work is therefore progressing through:
 
 ---
 
-## Tools I Use Along the Way
-
-**Design & Engineering**  
-SolidWorks · Siemens NX · Fusion 360 · RockSim
-
-**Simulation & Analysis**  
-ANSYS · Fluent · Mechanical · MATLAB · Simulink
-
-**Computational Engineering**  
-Python · C/C++ · CUDA/GPU computing · HPC · MPI
-
-**Research & Data**  
-Python · SQL · Pandas · Excel · Technical documentation
 
 ---
 
 ## What I'm Building Next
 
 This is not a finished archive. It is an evolving engineering record, with new projects and deeper technical work added as the journey continues.
-
-![Forward Looking Progression](assets/diagrams/continuous-growth.svg)
 
 ---
 

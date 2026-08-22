@@ -1,48 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 250" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="100%" height="100%">
   <defs>
     <style>
-      .title { fill: #1f2937; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 700; letter-spacing: 0.5px; }
-      .desc { fill: #64748b; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 11px; }
-      .track { stroke: #cbd5e1; stroke-width: 3; fill: none; stroke-linecap: round; }
-      .node-dot { fill: #ffffff; stroke: #3b82f6; stroke-width: 2.5; }
-      @media (prefers-color-scheme: dark) {
-        .title { fill: #f3f4f6; }
-        .desc { fill: #94a3b8; }
-        .track { stroke: #334155; }
-        .node-dot { fill: #0f172a; stroke: #60a5fa; }
-      }
+      @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&amp;family=JetBrains+Mono:wght@400&amp;display=swap');
+      .axis { stroke: currentColor; stroke-width: 1.5; }
+      .tick { stroke: currentColor; stroke-width: 1.5; }
+      .text-title { font-family: 'Archivo', sans-serif; font-size: 14px; font-weight: 600; fill: currentColor; text-anchor: middle; letter-spacing: 1px; }
+      .text-mono { font-family: 'JetBrains Mono', monospace; font-size: 11px; fill: currentColor; opacity: 0.6; text-anchor: middle; }
     </style>
   </defs>
-
-  <!-- Serpentine Track -->
-  <path d="M 100,70 L 640,70 C 690,70 690,180 640,180 L 280,180" class="track" />
-
-  <!-- 1. FOUNDATIONS -->
-  <circle cx="100" cy="70" r="6" class="node-dot" />
-  <text x="100" y="45" class="title" text-anchor="middle">FOUNDATIONS</text>
-
-  <!-- 2. EXPLORATION -->
-  <circle cx="280" cy="70" r="6" class="node-dot" />
-  <text x="280" y="45" class="title" text-anchor="middle">EXPLORATION</text>
-
-  <!-- 3. BUILDING -->
-  <circle cx="460" cy="70" r="6" class="node-dot" />
-  <text x="460" y="45" class="title" text-anchor="middle">BUILDING</text>
-
-  <!-- 4. COMPUTATIONAL GROWTH -->
-  <circle cx="640" cy="70" r="6" class="node-dot" />
-  <text x="640" y="45" class="title" text-anchor="middle">COMPUTATIONAL</text>
-  <text x="640" y="105" class="desc" text-anchor="middle">CFD &amp; HPC</text>
-
-  <!-- 5. RESEARCH -->
-  <circle cx="640" cy="180" r="6" class="node-dot" />
-  <text x="640" y="215" class="title" text-anchor="middle">RESEARCH</text>
-
-  <!-- 6. ENGINEERING IN CONTEXT -->
-  <circle cx="460" cy="180" r="6" class="node-dot" />
-  <text x="460" y="215" class="title" text-anchor="middle">IN CONTEXT</text>
-
-  <!-- 7. CONTINUOUS GROWTH -->
-  <circle cx="280" cy="180" r="6" class="node-dot" />
-  <text x="280" y="215" class="title" text-anchor="middle">CONTINUOUS GROWTH</text>
+  
+  <!-- Progression Axis -->
+  <line x1="100" y1="100" x2="900" y2="100" class="axis" />
+  
+  <!-- Node 1 -->
+  <line x1="150" y1="85" x2="150" y2="115" class="tick" />
+  <text x="150" y="70" class="text-title">FOUNDATIONS</text>
+  <text x="150" y="140" class="text-mono">MECHANICAL DESIGN</text>
+  
+  <!-- Node 2 -->
+  <line x1="400" y1="85" x2="400" y2="115" class="tick" />
+  <text x="400" y="70" class="text-title">SYSTEMS &amp; HARDWARE</text>
+  <text x="400" y="140" class="text-mono">AEROSPACE INTEGRATION</text>
+  
+  <!-- Node 3 -->
+  <line x1="650" y1="85" x2="650" y2="115" class="tick" />
+  <text x="650" y="70" class="text-title">COMPUTATION</text>
+  <text x="650" y="140" class="text-mono">HPC &amp; GPU ACCELERATION</text>
+  
+  <!-- Node 4 -->
+  <line x1="900" y1="85" x2="900" y2="115" class="tick" />
+  <text x="900" y="70" class="text-title">RESEARCH</text>
+  <text x="900" y="140" class="text-mono">CFD &amp; SIMULATION</text>
 </svg>

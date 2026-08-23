@@ -8,7 +8,7 @@ My journey has taken me through aerospace, defence, mechanical design, simulatio
 
 I enjoy moving between ideas and implementation: designing something, analysing it, building it, testing it, and then asking what could be improved. Sometimes that means designing a component. Sometimes it means writing code, analysing data, running a simulation, investigating an existing system, or building physical hardware.
 
-Aerospace is where much of my journey began, but I have gradually realised that the subject itself is only part of the story. Engineering is the thread that connects everything I do. I am drawn to difficult problems, multidisciplinary systems, unfamiliar tools, and the process of gradually becoming capable of doing things that once seemed beyond me.
+Aerospace is where much of my journey began, but I have gradually realised that the subject itself is only part of the story. Engineering is the thread that connects everything I do. I am drawn to difficult problems, multidisciplinary systems, unfamiliar tools and the process of gradually becoming capable of doing things that once seemed beyond me.
 
 ---
 
@@ -23,7 +23,7 @@ My first real exposure to engineering beyond the classroom came through Space Te
 
 Until then, engineering had largely existed as equations, theories and problems with known answers. STAR changed that. For the first time, I was around systems that had to be assembled, tested, understood and made to work.
 
-It taught me something that has stayed with me: there is a difference between understanding how something should work and actually making it work. Things do not always fit perfectly, components interact in unexpected ways and systems can behave differently in reality than they do on paper.
+It taught me something that has stayed with me: there is a difference between understanding how something should work and actually making it work! Things do not always fit perfectly, components interact in unexpected ways and systems can behave differently in reality than they do on paper.
 
 This was where engineering became an iterative process for me: understanding, experimenting, failing, improving and trying again. It was also where curiosity became something I could build with.
 

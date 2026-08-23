@@ -4,7 +4,7 @@
 
 I am an engineer who enjoys understanding how complex systems work, then figuring out how to make them work better.
 
-My journey has taken me through aerospace, defence, mechanical design, simulation, computation, programming, data and hands-on engineering. On the surface, these experiences may appear to belong to different areas. To me, however, they have always been connected by the same thing: a curiosity about how complex systems work and a desire to understand more than what is immediately visible.
+My journey has taken me through aerospace, defence, mechanical design, simulation, computation, programming, data and hands-on engineering. On the surface, these experiences may appear to belong to different areas. To me however, they have always been connected by the same thing: a curiosity about how complex systems work and a desire to understand more than what is immediately visible.
 
 I enjoy moving between ideas and implementation: designing something, analysing it, building it, testing it, and then asking what could be improved. Sometimes that means designing a component. Sometimes it means writing code, analysing data, running a simulation, investigating an existing system, or building physical hardware.
 
@@ -32,9 +32,9 @@ This was where engineering became an iterative process for me: understanding, ex
 
 My experience at HAL Nashik gave me a different perspective on engineering.
 
-I had studied aircraft systems and components before, but seeing large aerospace systems up close showed me how individual disciplines fit into a much larger whole. I was exposed to environments involving aircraft, propulsion, structures, avionics, radar systems, subsystem integration and overhaul operations.
+I had studied aircraft systems and components before, but seeing large aerospace systems up close showed me how individual disciplines fit into a much larger whole. I was exposed to environments involving aircraft propulsion, structures, avionics, radar systems, subsystem integration and overhaul operations.
 
-What stood out was that a complex engineering product does not exist because one component was designed well. It exists because design, manufacturing, assembly, inspection, integration, testing and maintenance all have to work together.
+What stood out was that a complex engineering product does not exist because one component was designed well. It exists because design, manufacturing, assembly, inspection, integration, testing and maintenance all have to work together!
 
 That shifted how I viewed engineering. I began thinking less about individual components in isolation and more about the systems and interfaces connecting them.
 
@@ -45,13 +45,13 @@ Aerospace was where I saw this, but the lesson was broader: real engineering hap
 
 At L&T Defence, I worked on a research problem involving VTOL UAVs. The original task was to study existing systems and use the available information to support the development of requirements.
 
-But I wanted to understand the wider design space rather than simply collect examples. Why did different aircraft use particular configurations? How were payload, endurance, dimensions, propulsion and mission requirements related? What trade-offs were designers making?
+But I wanted to understand the wider design space rather than simply collect examples. Why did different aircraft use particular configurations? How were payload, endurance, dimensions, propulsion and mission requirements related? What trade--offs were designers making?
 
 What began as a requirement study became a larger investigation. Using Python and SQL, I built a structured database of more than 170 VTOL UAV platforms that could be queried and compared to identify patterns across the design space.
 
 This was also where programming and data became engineering tools for me. It reinforced a lesson that has followed me since: the original question is not always the whole problem. Sometimes you need to look beyond the immediate requirement before deciding what the system is really telling you.
 ### 04 | GARUD
-**Thrust-Vector-Controlled Model Rocket**
+**Thrust--Vector--Controlled Model Rocket**
 
 GARUD was where several parts of my engineering journey came together.
 

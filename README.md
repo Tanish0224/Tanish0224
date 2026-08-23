@@ -4,7 +4,7 @@
 
 I am an engineer who enjoys understanding how complex systems work, then figuring out how to make them work better.
 
-My journey has taken me through aerospace, defence, mechanical design, simulation, computation, programming, data, and hands-on engineering. On the surface, these experiences may appear to belong to different areas. To me, however, they have always been connected by the same thing: a curiosity about how complex systems work and a desire to understand more than what is immediately visible.
+My journey has taken me through aerospace, defence, mechanical design, simulation, computation, programming, data and hands-on engineering. On the surface, these experiences may appear to belong to different areas. To me, however, they have always been connected by the same thing: a curiosity about how complex systems work and a desire to understand more than what is immediately visible.
 
 I enjoy moving between ideas and implementation: designing something, analysing it, building it, testing it, and then asking what could be improved. Sometimes that means designing a component. Sometimes it means writing code, analysing data, running a simulation, investigating an existing system, or building physical hardware.
 

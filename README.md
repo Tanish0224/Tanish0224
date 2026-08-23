@@ -1,6 +1,6 @@
 # Engineering begins where the obvious answer ends.
 
-> Curious by nature, driven to grow beyond who I was yesterday, relentless in pursuit of what comes next, and always aware there is more to learn.
+> Curious by nature, driven to grow beyond who I was yesterday, relentless in pursuit of what comes next and always aware there is more to learn.
 
 I am an engineer who enjoys understanding how complex systems work, then figuring out how to make them work better.
 

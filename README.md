@@ -1,4 +1,4 @@
-# Engineering begins where the obvious answer ends.
+# Engineering begins where the obvious answer ends!
 
 > Curious by nature, driven to grow beyond who I was yesterday, relentless in pursuit of what comes next and always aware there is more to learn.
 

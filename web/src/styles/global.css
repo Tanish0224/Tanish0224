@@ -1,0 +1,107 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #050505;
+  color: #f3f4f6;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Accessibility: Focus visible styling */
+a:focus-visible, button:focus-visible {
+  outline: 2px solid #fb923c;
+  outline-offset: 4px;
+}
+
+/* Layer 1: Fixed WebGL Canvas */
+.canvas-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100dvh;
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* Layer 2: Semantic Content */
+.content-layer {
+  position: relative;
+  z-index: 20;
+}
+
+.narrative-section {
+  min-height: 150vh; 
+  display: flex;
+  align-items: center;
+  padding: 2rem 6%;
+  pointer-events: none; 
+}
+
+@media (min-width: 768px) {
+  .narrative-section {
+    padding: 2rem 10%;
+  }
+}
+
+/* The final Evidence resolution layer */
+.evidence-section {
+  position: relative;
+  z-index: 30; /* Stays above WebGL */
+  min-height: 100vh;
+  background-color: #050505; /* Deep space black, blends perfectly with body */
+  border-top: 1px solid #1f2937;
+  align-items: flex-start;
+  pointer-events: auto; /* Enable interaction for links/buttons inside evidence */
+}
+
+.content-block {
+  pointer-events: auto; 
+  max-width: 640px;
+}
+
+/* Hide fallback initially */
+.fallback-visual {
+  display: none; 
+  margin-top: 2rem;
+  padding: 4rem;
+  border: 1px dashed #374151;
+  text-align: center;
+  color: #9ca3af;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.875rem;
+}
+
+/* Layer 3: Recruiter Fast-Path */
+.ui-layer {
+  position: fixed;
+  z-index: 40;
+  pointer-events: none;
+}
+
+/* Reduced Motion Architecture */
+@media (prefers-reduced-motion: reduce) {
+  html, body {
+    scroll-behavior: auto;
+  }
+  .narrative-section {
+    min-height: auto;
+    padding: 6rem 6%;
+  }
+  @media (min-width: 768px) {
+    .narrative-section {
+      padding: 8rem 10%;
+    }
+  }
+  .fallback-visual {
+    display: block; 
+  }
+}

@@ -1,0 +1,265 @@
+﻿---
+import Layout from '../layouts/Layout.astro';
+import NarrativeCanvasWrapper from '../components/3D/core/NarrativeCanvasWrapper.jsx';
+import RecruiterIndex from '../components/UI/RecruiterIndex.jsx';
+---
+<Layout title="Tanish Shetty | Aerospace Engineer">
+  
+  <div class="canvas-container" aria-hidden="true">
+    <NarrativeCanvasWrapper client:only="react" />
+  </div>
+
+  <div class="ui-layer">
+    <RecruiterIndex client:load />
+  </div>
+
+  <main class="content-layer">
+    
+    <!-- Hero / Identity Section -->
+    <header class="h-[100dvh] flex flex-col justify-center px-6 md:px-12 relative z-20 pointer-events-none">
+      <div class="max-w-5xl pointer-events-auto">
+        <h1 class="text-5xl md:text-7xl lg:text-[5.5rem] font-bold tracking-tighter text-white mb-6 leading-[1.1]">
+          Tanish Shetty
+        </h1>
+        <p class="text-xl md:text-2xl lg:text-3xl text-gray-400 font-light mb-12 max-w-3xl leading-relaxed">
+          Aerospace-trained engineer working across physical systems, design, simulation, computation, testing, and research.
+        </p>
+        <div class="flex flex-wrap gap-4 md:gap-6">
+          <a href="#evidence" class="px-8 py-4 border border-gray-700 hover:border-gray-300 hover:text-white text-xs md:text-sm font-mono transition-colors text-gray-300 tracking-widest uppercase bg-[#050505]/50 backdrop-blur-sm">
+            [ View Engineering Work ]
+          </a>
+          <a href="mailto:tanishs25@iitk.ac.in" class="px-8 py-4 border border-transparent hover:border-gray-800 hover:text-white text-xs md:text-sm font-mono transition-colors text-gray-500 tracking-widest uppercase">
+            Contact &rarr;
+          </a>
+          
+        </div>
+      </div>
+      
+      <div class="absolute bottom-12 left-6 md:left-12 text-[10px] md:text-xs font-mono text-gray-600 tracking-widest animate-pulse pointer-events-auto">
+        SCROLL TO EXPLORE &darr;
+      </div>
+    </header>
+
+    <section id="structure" class="narrative-section">
+      <div class="content-block">
+        <div class="text-xs font-mono text-gray-500 tracking-widest mb-3 uppercase">[01] Foundation</div>
+        <h2 class="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight">STRUCTURE</h2>
+        <p class="text-lg md:text-xl text-gray-400 max-w-lg font-light leading-relaxed">
+          1U CubeSat structure and mechanical design. Understanding physical constraints, dynamic loads, and manufacturing reality.
+        </p>
+        <div class="fallback-visual">CubeSat Structural Assembly (WebGL Disabled)</div>
+      </div>
+    </section>
+
+    <section id="motion" class="narrative-section">
+      <div class="content-block">
+        <div class="text-xs font-mono text-gray-500 tracking-widest mb-3 uppercase">[02] Dynamics</div>
+        <h2 class="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight">MOTION</h2>
+        <p class="text-lg md:text-xl text-gray-400 max-w-lg font-light leading-relaxed">
+          GARUD Thrust Vector Control Rocket. Bridging theoretical control simulations with physical systems integration and flight dynamics.
+        </p>
+        <div class="fallback-visual">GARUD Flight Systems (WebGL Disabled)</div>
+      </div>
+    </section>
+
+    <section id="flow" class="narrative-section">
+      <div class="content-block">
+        <div class="text-xs font-mono text-gray-500 tracking-widest mb-3 uppercase">[03] Fluid Mechanics</div>
+        <h2 class="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight">FLOW</h2>
+        <p class="text-lg md:text-xl text-gray-400 max-w-lg font-light leading-relaxed">
+          Aerodynamic behavior and turbulence modeling. Expanding physical engineering into fluid domains and comparative systems analysis.
+        </p>
+        <div class="fallback-visual">Flow Visualization (WebGL Disabled)</div>
+      </div>
+    </section>
+
+    <section id="computation" class="narrative-section">
+      <div class="content-block">
+        <div class="text-xs font-mono text-gray-500 tracking-widest mb-3 uppercase">[04] Numerical Methods</div>
+        <h2 class="text-3xl md:text-5xl lg:text-6xl font-bold text-white mb-6 tracking-tight">COMPUTATION</h2>
+        <p class="text-lg md:text-xl text-gray-400 max-w-lg font-light leading-relaxed">
+          CFD analysis, parallel domain decomposition, and High Performance Computing (HPC) applied to complex physical systems.
+        </p>
+        <div class="fallback-visual">Computational Discretization Grid (WebGL Disabled)</div>
+      </div>
+    </section>
+
+        <section id="evidence" class="narrative-section evidence-section relative z-30">
+      <div class="max-w-7xl mx-auto w-full px-6 md:px-12 lg:px-24 py-24 md:py-32">
+        
+        <header class="mb-24 md:mb-40 border-b border-gray-800 pb-12">
+          <h1 class="text-3xl md:text-5xl lg:text-6xl font-mono text-gray-200 tracking-tight mb-8 uppercase">Engineering Evidence.</h1>
+          <p class="text-lg md:text-xl lg:text-2xl text-gray-400 max-w-4xl font-light leading-relaxed">
+            The preceding chapters describe the engineering approach. The following projects demonstrate where that approach was systematically applied and validated.
+          </p>
+        </header>
+
+        <div class="space-y-32 md:space-y-48">
+          
+          <!-- Project 01: CubeSat -->
+          <article class="project-card flex flex-col md:flex-row gap-8 md:gap-24 group">
+            <div class="md:w-1/3 md:shrink-0">
+              <div class="text-xs font-mono text-gray-500 mb-4 tracking-widest uppercase border-l-2 border-gray-800 pl-4 group-hover:border-[#fb923c] transition-colors">01 &mdash; Structural Systems</div>
+              <h2 class="text-2xl md:text-3xl font-semibold text-gray-100 mb-6 leading-snug group-hover:text-white transition-colors">1U CubeSat Structural Design</h2>
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="px-2 py-1 text-xs font-mono bg-[#0a0a0a] text-gray-400 border border-gray-800">CAD Modeling</span>
+                <span class="px-2 py-1 text-xs font-mono bg-[#0a0a0a] text-gray-400 border border-gray-800">Design Analysis</span>
+                <span class="px-2 py-1 text-xs font-mono bg-[#0a0a0a] text-gray-400 border border-gray-800">Mass Optimization</span>
+              </div>
+            </div>
+            <div class="md:w-2/3 text-gray-300 font-light leading-relaxed space-y-6">
+              <p class="text-lg lg:text-xl text-gray-400">A four-week structural design engineering project focusing on the mechanical constraints of a 1U CubeSat. The work required balancing a strict 250 g mass limitation with structural integrity under 20-100 N loading conditions.</p>
+              <div class="pt-8 border-t border-gray-800/60 mt-8">
+                <h3 class="text-xs font-mono text-gray-500 mb-4 tracking-wider uppercase">Engineering Contribution</h3>
+                <p class="text-base lg:text-lg text-gray-300">Executed requirement analysis, CAD modeling in Fusion 360, and FEA constraint evaluation. Iteratively reduced the final structural mass to approximately 194 g, achieving a 23.2% safety margin below the limit while satisfying all constraints.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02: GARUD -->
+          <article class="project-card flex flex-col md:flex-row gap-8 md:gap-24 group">
+            <div class="md:w-1/3 md:shrink-0">
+              <div class="text-xs font-mono text-gray-500 mb-4 tracking-widest uppercase border-l-2 border-gray-800 pl-4 group-hover:border-[#fb923c] transition-colors">02 &mdash; Flight Systems</div>
+              <h2 class="text-2xl md:text-3xl font-semibold text-gray-100 mb-6 leading-snug group-hover:text-white transition-colors">GARUD TVC Model Rocket</h2>
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="px-2 py-1 text-xs font-mono bg-[#0a0a0a] text-gray-400 border border-gray-800">SolidWorks</span>
+                <span class="px-2 py-1 text-xs font-mono bg-[#0a0a0a] text-gray-400 border border-gray-800">MATLAB / Simulink</span>
+                <span class="px-2 py-1 text-xs font-mono bg-[#0a0a0a] text-gray-400 border border-gray-800">RockSim</span>
+              </div>
+            </div>
+            <div class="md:w-2/3 text-gray-300 font-light leading-relaxed space-y-6">
+              <p class="text-lg lg:text-xl text-gray-400">End-to-end engineering execution for a Thrust Vector Control (TVC) model rocket. The project integrated physical design, mathematical modeling, and actual hardware testing into a complete workflow.</p>
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-12 pt-8 border-t border-gray-800/60 mt-8">
+                <div>
+                  <h3 class="text-xs font-mono text-gray-500 mb-4 tracking-wider uppercase">Methodology</h3>
+                  <p class="text-base text-gray-300">System architecture definition followed by CAD modeling, dynamic simulation, physical fabrication, systems integration, and empirical testing.</p>
+                </div>
+                <div>
+                  <h3 class="text-xs font-mono text-gray-500 mb-4 tracking-wider uppercase">Outcome</h3>
+                  <p class="text-base text-gray-300">Demonstrated the ability to bridge theoretical control simulations (MATLAB/Simulink) with practical physical fabrication and launch dynamics under an approximately 50% lower impulse constraint.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03: VTOL UAV -->
+          <article class="project-card flex flex-col md:flex-row gap-8 md:gap-24 group">
+            <div class="md:w-1/3 md:shrink-0">
+              <div class="text-xs font-mono text-gray-500 mb-4 tracking-widest uppercase border-l-2 border-gray-800 pl-4 group-hover:border-[#fb923c] transition-colors">03 &mdash; Aerodynamic Systems</div>
+              <h2 class="text-2xl md:text-3xl font-semibold text-gray-100 mb-6 leading-snug group-hover:text-white transition-colors">VTOL UAV Database Architecture</h2>
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="px-2 py-1 text-xs font-mono bg-[#0a0a0a] text-gray-400 border border-gray-800">Python</span>
+                <span class="px-2 py-1 text-xs font-mono bg-[#0a0a0a] text-gray-400 border border-gray-800">SQL</span>
+                <span class="px-2 py-1 text-xs font-mono bg-[#0a0a0a] text-gray-400 border border-gray-800">Data Analysis</span>
+              </div>
+            </div>
+            <div class="md:w-2/3 text-gray-300 font-light leading-relaxed space-y-6">
+              <p class="text-lg lg:text-xl text-gray-400">An engineering database development initiative executed during a tenure at L&amp;T Defence. The project involved deep comparative technical analysis of vertical take-off and landing (VTOL) unmanned aerial vehicles.</p>
+              
+              <div class="mt-4 mb-6">
+                <a href="/evidence/vtol_performance_analysis_report.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-xs font-mono text-[#fb923c] hover:text-white transition-colors">
+                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                  [ VIEW PERFORMANCE ANALYSIS REPORT ]
+                </a>
+              </div>
+
+              <div class="bg-[#030303] p-8 md:p-10 border border-gray-800/50 mt-8 font-mono text-sm shadow-inner rounded-sm relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-1 h-full bg-gray-800"></div>
+                <div class="text-gray-500 mb-6 border-b border-gray-800 pb-4">// RESEARCH PARAMETERS</div>
+                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-8 text-gray-300">
+                  <li class="flex items-center"><span class="text-gray-700 mr-4">&gt;</span> TARGET_SCOPE: ~100 platforms</li>
+                  <li class="flex items-center"><span class="text-gray-700 mr-4">&gt;</span> FINAL_SCOPE: 195 usable records</li>
+                  <li class="flex items-center"><span class="text-gray-700 mr-4">&gt;</span> METRICS: MTOW, Dimensions</li>
+                  <li class="flex items-center"><span class="text-gray-700 mr-4">&gt;</span> SPECS: Payload, Endurance</li>
+                  <li class="flex items-center"><span class="text-gray-700 mr-4">&gt;</span> PERF: Ceiling, Speed, Engine</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 04: CFD / HPC -->
+          <article class="project-card flex flex-col md:flex-row gap-8 md:gap-24 group">
+            <div class="md:w-1/3 md:shrink-0">
+              <div class="text-xs font-mono text-gray-500 mb-4 tracking-widest uppercase border-l-2 border-gray-800 pl-4 group-hover:border-[#fb923c] transition-colors">04 &mdash; Computational Research</div>
+              <h2 class="text-2xl md:text-3xl font-semibold text-gray-100 mb-6 leading-snug group-hover:text-white transition-colors">DNS / LES of Turbulent Jets</h2>
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="px-2 py-1 text-xs font-mono bg-[#0a0a0a] text-gray-400 border border-gray-800">CFD</span>
+                <span class="px-2 py-1 text-xs font-mono bg-[#0a0a0a] text-gray-400 border border-gray-800">HPC / MPI</span>
+                <span class="px-2 py-1 text-xs font-mono bg-[#0a0a0a] text-gray-400 border border-gray-800">Incompact3D</span>
+              </div>
+            </div>
+            <div class="md:w-2/3 text-gray-300 font-light leading-relaxed space-y-6">
+              <p class="text-lg lg:text-xl text-gray-400">Ongoing M.Tech thesis research at IIT Kanpur focusing on computational fluid dynamics (CFD) and contrail ice formation utilizing Lagrangian tracer particles within High Performance Computing (HPC) environments.</p>
+              
+              <div class="pt-8 border-t border-gray-800/60 mt-8">
+                <h3 class="text-xs font-mono text-gray-500 mb-6 tracking-wider uppercase">Validation Pipeline</h3>
+                <div class="text-base text-gray-300 space-y-5 font-mono text-sm bg-[#030303] p-8 border border-gray-800/50">
+                  <p class="flex items-start"><span class="text-[#fb923c] mr-5 opacity-80 font-bold">[OK]</span> <span class="text-gray-300">Establish temporal turbulent-jet baseline using LES in Incompact3D.</span></p>
+                  <p class="flex items-start"><span class="text-[#fb923c] mr-5 opacity-80 font-bold">[OK]</span> <span class="text-gray-300">Compare Dynamic Smagorinsky and explicit high-order low-pass filtering.</span></p>
+                  <p class="flex items-start"><span class="text-[#fb923c] mr-5 opacity-80 font-bold">[IN PROGRESS]</span> <span class="text-gray-300">Validate turbulent jet physics and assess turbulent energy transfer using Kolmogorov -5/3 scaling.</span></p>
+                  <p class="flex items-start"><span class="text-gray-600 mr-5 font-bold">[-&gt;]</span> <span class="text-gray-500">Extend study toward jet-vortex interaction and ice microphysics modeling.</span></p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 05: GPU CFD -->
+          <article class="project-card flex flex-col md:flex-row gap-8 md:gap-24 group">
+            <div class="md:w-1/3 md:shrink-0">
+              <div class="text-xs font-mono text-gray-500 mb-4 tracking-widest uppercase border-l-2 border-gray-800 pl-4 group-hover:border-[#fb923c] transition-colors">05 &mdash; High Performance Computing</div>
+              <h2 class="text-2xl md:text-3xl font-semibold text-gray-100 mb-6 leading-snug group-hover:text-white transition-colors">GPU-Accelerated FVM Solver</h2>
+              <div class="flex flex-wrap gap-2 mb-6">
+                <span class="px-2 py-1 text-xs font-mono bg-[#0a0a0a] text-gray-400 border border-gray-800">CUDA C</span>
+                <span class="px-2 py-1 text-xs font-mono bg-[#0a0a0a] text-gray-400 border border-gray-800">CuPy</span>
+                <span class="px-2 py-1 text-xs font-mono bg-[#0a0a0a] text-gray-400 border border-gray-800">CFD</span>
+              </div>
+            </div>
+            <div class="md:w-2/3 text-gray-300 font-light leading-relaxed space-y-6">
+              <p class="text-lg lg:text-xl text-gray-400">Developed a hardware-aware GPU-accelerated Computational Fluid Dynamics (CFD) solver for the 2D compressible Euler equations. Transitioned a baseline CPU solver to leverage CuPy and highly-optimized CUDA C RawKernels, targeting an NVIDIA RTX 6000 Pro.</p>
+              
+              <figure class="mt-8 mb-8 border border-gray-800 bg-[#050505] p-2">
+                <img src="/evidence/sod_shock_tube_2d_flow_fields.png" alt="2D Sod Shock-Tube Flow Fields Validation" class="w-full h-auto opacity-90 hover:opacity-100 transition-opacity" />
+                <figcaption class="text-xs font-mono text-gray-500 mt-3 mb-1 uppercase tracking-widest text-center">Fig 1. 2D Sod Shock-Tube Flow Fields (Density, Pressure, Mach, Velocity)</figcaption>
+              </figure>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-12 pt-8 border-t border-gray-800/60 mt-8">
+                <div>
+                  <h3 class="text-xs font-mono text-gray-500 mb-4 tracking-wider uppercase">Architecture</h3>
+                  <p class="text-base text-gray-300 mb-4">Implemented MUSCL spatial reconstruction with minmod limiting, HLL Riemann solver, and three-stage SSP-RK3. Designed custom shared-memory temporal blocking to maximize arithmetic intensity.</p>
+                  <a href="/evidence/Final_Report_HPC_Compressible_Solvers.pdf" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-xs font-mono text-[#fb923c] hover:text-white transition-colors">
+                    <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                    [ VIEW FINAL HPC REPORT ]
+                  </a>
+                </div>
+                <div>
+                  <h3 class="text-xs font-mono text-gray-500 mb-4 tracking-wider uppercase">Validation</h3>
+                  <p class="text-base text-gray-300">Numerical solution rigorously validated against the analytical 1D Sod shock-tube solution extended to 2D, correctly capturing shocks, contact discontinuities, and expansion regions.</p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+        
+        <footer class="mt-40 border-t border-gray-800 pt-12 flex flex-col md:flex-row justify-between items-center text-sm font-mono text-gray-600">
+          <div>&copy; 2026 Tanish Shetty. Built for Engineering Review.</div>
+          <div class="mt-4 md:mt-0 flex gap-6">
+            <a href="https://linkedin.com/in/tanish-shetty02" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">LinkedIn</a>
+            <a href="https://github.com/Tanish0224" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">GitHub</a>
+            <a href="/Tanish_Shetty_Resume.pdf" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">Resume (PDF)</a>
+          </div>
+        </footer>
+
+      </div>
+    </section>
+  </main>
+
+</Layout>
+
+
+
+
+
+
+
+
+

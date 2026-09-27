@@ -14,8 +14,6 @@ Aerospace is where much of my journey began, but I have gradually realised that 
 
 ## HOW I GOT HERE
 
-<img src="assets/visuals/engineering-journey.svg" width="100%" alt="Engineering Journey Map" />
-
 ### 01 | WHERE IT STARTED
 **Curiosity needed somewhere to go**
 

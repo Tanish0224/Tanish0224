@@ -14,8 +14,6 @@ Aerospace is where much of my journey began, but I have gradually realised that 
 
 ## HOW I GOT HERE
 
-<img src="assets/visuals/engineering-journey.svg" width="100%" alt="Engineering Journey Map" />
-
 ### 01 | WHERE IT STARTED
 **Curiosity needed somewhere to go**
 
@@ -117,14 +115,6 @@ The tools change with the problem. The approach does not: understand the system,
 <br>
 <img src="assets/logos/sql.png" height="42" title="SQL" /> &nbsp;&nbsp; <img src="assets/logos/pandas.svg" height="42" title="Pandas" /> &nbsp;&nbsp; <img src="assets/logos/numpy.svg" height="42" title="NumPy" /> &nbsp;&nbsp; <img src="assets/logos/matplotlib.svg" height="42" title="Matplotlib" /> &nbsp;&nbsp; <img src="assets/logos/git.svg" height="42" title="Git" /> &nbsp;&nbsp; <img src="assets/logos/github.svg" height="42" title="GitHub" />
 <br><br>
-
----
-
-## HOW I APPROACH ENGINEERING
-
-The tools change with the problem, but the process remains consistent: understand what exists, investigate what matters, build carefully, validate against evidence, and improve from what you learn.
-
-<img src="assets/visuals/engineering-approach.svg" width="100%" alt="Engineering Approach Workflow" />
 
 ---
 

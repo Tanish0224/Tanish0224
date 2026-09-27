@@ -1,14 +1,12 @@
-# Engineering begins where the obvious answer ends!
-
-> Curious by nature, driven to grow beyond who I was yesterday, relentless in pursuit of what comes next and always aware there is more to learn.
+﻿# Engineering begins where the obvious answer ends.
 
 I am an engineer who enjoys understanding how complex systems work, then figuring out how to make them work better.
 
-My journey has taken me through aerospace, defence, mechanical design, simulation, computation, programming, data and hands-on engineering. On the surface, these experiences may appear to belong to different areas. To me however, they have always been connected by the same thing: a curiosity about how complex systems work and a desire to understand more than what is immediately visible.
+My journey has taken me through aerospace, defense, mechanical design, simulation, computation, programming, data, and hands-on engineering. On the surface, these experiences may appear distinct. To me, however, they are connected by a single thread: **a desire to understand more than what is immediately visible.**
 
-I enjoy moving between ideas and implementation: designing something, analysing it, building it, testing it, and then asking what could be improved. Sometimes that means designing a component. Sometimes it means writing code, analysing data, running a simulation, investigating an existing system, or building physical hardware.
+I enjoy moving between ideas and implementation—designing a component, writing code, analyzing data, running a simulation, or building physical hardware. Regardless of the tool, the process remains the same: design, analyze, build, test, and ask what can be improved.
 
-Aerospace is where much of my journey began, but I have gradually realised that the subject itself is only part of the story. Engineering is the thread that connects everything I do. I am drawn to difficult problems, multidisciplinary systems, unfamiliar tools and the process of gradually becoming capable of doing things that once seemed beyond me.
+Aerospace is where my journey began, but I am drawn to difficult problems and multidisciplinary systems across domains. Engineering is the thread that connects everything I do.
 
 ---
 
@@ -17,78 +15,68 @@ Aerospace is where much of my journey began, but I have gradually realised that 
 ### 01 | WHERE IT STARTED
 **Curiosity needed somewhere to go**
 
-My first real exposure to engineering beyond the classroom came through Space Technology and Aeronautical Rocketry (STAR).
+My first real exposure to engineering beyond the classroom came through Space Technology and Aeronautical Rocketry (STAR). Until then, engineering had largely existed as equations, theories, and problems with known answers. STAR changed that. 
 
-Until then, engineering had largely existed as equations, theories and problems with known answers. STAR changed that. For the first time, I was around systems that had to be assembled, tested, understood and made to work.
+For the first time, I was around systems that had to be assembled, tested, and made to work. It taught me a lesson that has stayed with me: **there is a difference between understanding how something should work and actually making it work.** 
 
-It taught me something that has stayed with me: there is a difference between understanding how something should work and actually making it work! Things do not always fit perfectly, components interact in unexpected ways and systems can behave differently in reality than they do on paper.
-
-This was where engineering became an iterative process for me: understanding, experimenting, failing, improving and trying again. It was also where curiosity became something I could build with.
+Things do not always fit perfectly, components interact in unexpected ways, and physical systems behave differently than they do on paper. This was where engineering became an iterative process for me: understanding, experimenting, failing, improving, and trying again.
 
 ### 02 | WHEN ENGINEERING BECAME REAL
 **Seeing the scale behind the system**
 
-My experience at HAL Nashik gave me a different perspective on engineering.
+My experience at HAL Nashik gave me a different perspective. I had studied aircraft systems and components before, but seeing large aerospace systems up close showed me how individual disciplines fit into a much larger whole. 
 
-I had studied aircraft systems and components before, but seeing large aerospace systems up close showed me how individual disciplines fit into a much larger whole. I was exposed to environments involving aircraft propulsion, structures, avionics, radar systems, subsystem integration and overhaul operations.
+I was exposed to environments involving aircraft propulsion, structures, avionics, radar systems, subsystem integration, and overhaul operations. What stood out was that a complex engineering product does not exist simply because one component is designed well. It exists because the entire system works together:
 
-What stood out was that a complex engineering product does not exist because one component was designed well. It exists because design, manufacturing, assembly, inspection, integration, testing and maintenance all have to work together!
+*   **Design & Manufacturing**
+*   **Assembly & Inspection**
+*   **Integration, Testing & Maintenance**
 
-That shifted how I viewed engineering. I began thinking less about individual components in isolation and more about the systems and interfaces connecting them.
-
-Aerospace was where I saw this, but the lesson was broader: real engineering happens at the interfaces between disciplines.
+That shifted how I viewed engineering. I began thinking less about individual components in isolation and more about the systems and interfaces connecting them. Real engineering happens at the interfaces between disciplines.
 
 ### 03 | FOLLOWING CURIOSITY FURTHER
 **When a requirement became an investigation**
 
-At L&T Defence, I worked on a research problem involving VTOL UAVs. The original task was to study existing systems and use the available information to support the development of requirements.
+At L&T Defence, I worked on a research problem involving VTOL UAVs. The original task was to study existing systems and use that information to support requirement development.
 
-But I wanted to understand the wider design space rather than simply collect examples. Why did different aircraft use particular configurations? How were payload, endurance, dimensions, propulsion and mission requirements related? What trade--offs were designers making?
+However, I wanted to understand the wider design space rather than simply collect examples. I asked broader questions:
+*   Why did different aircraft use particular configurations?
+*   How were payload, endurance, dimensions, and propulsion related?
+*   What trade-offs were designers making?
 
-What began as a requirement study became a larger investigation. Using Python and SQL, I built a structured database of more than 170 VTOL UAV platforms that could be queried and compared to identify patterns across the design space.
+What began as a requirement study became a larger investigation. Using Python and SQL, I built a structured database containing **approximately 195 usable VTOL UAV records from more than 200 researched platforms**. 
 
-This was also where programming and data became engineering tools for me. It reinforced a lesson that has followed me since: the original question is not always the whole problem. Sometimes you need to look beyond the immediate requirement before deciding what the system is really telling you.
+This allowed the data to be queried and compared to identify patterns across the design space. It reinforced a lesson that has followed me since: the original question is not always the whole problem. Sometimes you need to look beyond the immediate requirement before deciding what the system is really telling you.
+
 ### 04 | GARUD
-**Thrust--Vector--Controlled Model Rocket**
+**Thrust-Vector-Controlled Model Rocket**
 
-GARUD was where several parts of my engineering journey came together.
-
-The project began with an ambitious idea: develop a thrust-vector-controlled model rocket and take it from concept to a functioning physical system.
+GARUD was where several parts of my engineering journey came together. Collaborating within a four-member team, we set out to develop a thrust-vector-controlled (TVC) model rocket and take it from concept to a functioning physical system. 
 
 That meant treating engineering as a connected chain rather than a collection of separate tasks:
+*   **Concept & Simulation**
+*   **Design & Analysis**
+*   **Fabrication & Integration**
+*   **Testing**
 
-concept → simulation → design → analysis → fabrication → integration → testing
+While the team tackled trajectory analysis, structural considerations, and control modeling, I took specific ownership of the **mechanical and CAD design**—focusing on the TVC mechanism and the deployable landing-leg assembly.
 
-Different stages required different tools and different ways of thinking. We worked with trajectory and flight analysis, CAD design, structural considerations, modelling and control, fabrication and the integration of physical hardware.
-
-But the most valuable part of GARUD was what happened between those stages.
-
-A model can look correct on a computer while being difficult to manufacture. A design can work individually while creating integration problems when combined with other components. Parts that fit digitally still have to deal with tolerances, fabrication limitations, assembly, wiring and hardware constraints.
-
-GARUD forced me to think about engineering as an end-to-end process. The goal was no longer simply to create a good CAD model or complete an analysis. Every decision eventually had to survive the transition to physical hardware.
-
-Design had to communicate with fabrication. Fabrication had to communicate with integration. Integration had to communicate with testing.
-
-That is why GARUD remains one of the strongest experiences in my journey. The application was a rocket, but what I learned was much broader: engineering becomes most interesting when an idea has to survive reality.
+The most valuable part of GARUD was what happened between the development stages. A digital CAD model can look correct on a screen but be impossible to manufacture. Parts that fit perfectly in software must still account for physical tolerances, wiring, and assembly constraints. GARUD forced me to think about engineering as an end-to-end process where every decision eventually has to survive the transition to physical hardware. 
 
 ### 05 | IIT KANPUR
 **Choosing the Harder Room**
 
-Coming to IIT Kanpur was a deliberate decision to place myself in a more demanding environment.
+Coming to IIT Kanpur was a deliberate decision to place myself in a more demanding environment. I came to work on harder problems, build stronger technical foundations, and be challenged by people and ideas that change the way I think.
 
-I did not come expecting to already know enough. I came to work around harder problems, build stronger technical foundations and be challenged by people and ideas that could change the way I think.
+My current work involves computational engineering and fluid mechanics, but one principle has become increasingly important to me: **before trying to change a complex system, first understand it.**
 
-My current work involves computational engineering and fluid mechanics, but one principle has become increasingly important to me:
+Whether working with an existing computational workflow, a physical system, a CAD design, a dataset, or a large codebase, the temptation is often to immediately modify something. I have learned to follow a more rigorous sequence:
+*   **Understand** how the pieces are connected.
+*   **Establish a baseline** and reproduce known behavior.
+*   **Validate** the model against evidence.
+*   **Question assumptions** and find out what the existing system is *actually* doing.
 
-Before trying to change a complex system, first understand it.
-
-Whether working with an existing computational workflow, a physical system, a CAD design, a dataset or a large codebase, the temptation is often to immediately modify something or move towards the final objective. I have learned that this is not always the right place to begin.
-
-First understand how the pieces are connected. Establish a baseline. Reproduce known behaviour. Validate against evidence. Question assumptions. Find out what the existing system is actually doing before deciding what should change.
-
-Only then is there a trustworthy foundation for extending the work.
-
-IIT Kanpur is the current chapter of that journey. It is not an endpoint but a willingness to keep choosing environments and problems that demand more from me than the version of myself that arrived there.
+Only then is there a trustworthy foundation for extending the work. IIT Kanpur is the current chapter of that journey—a willingness to keep choosing problems that demand more from me than the version of myself that arrived here.
 
 ---
 
@@ -122,19 +110,19 @@ The tools change with the problem. The approach does not: understand the system,
 
 | 🚀 [**Project GARUD**](https://github.com/Tanish0224/garud-tvc-rocket) |
 | :--- |
-| **Thrust-Vector-Controlled Model Rocket** <br> Represents multidisciplinary systems engineering, CAD/mechanical design, control, fabrication and physical hardware integration. |
+| **Thrust-Vector-Controlled Model Rocket** <br> Represents multidisciplinary systems engineering, mechanical/CAD design, fabrication, and physical hardware integration. |
 
 <br>
 
 | ⚡ [**GPU-Accelerated CFD**](https://github.com/Tanish0224/gpu-accelerated-cfd) |
 | :--- |
-| **High-Performance GPU Compressible Flow Solver** <br> Represents computational engineering, HPC, GPU programming, CUDA/NVIDIA Warp and performance optimization. |
+| **High-Performance GPU Compressible Flow Solver** <br> Represents computational engineering, HPC, GPU programming, CUDA, CuPy, and performance optimization. |
 
 <br>
 
-| 🚁 [**VTOL UAV Performance & Specification Analysis**](https://github.com/Tanish0224/vtol-uav-performance-analysis) |
+| 🚁 [**VTOL UAV Performance Analysis**](https://github.com/Tanish0224/vtol-uav-performance-analysis) |
 | :--- |
-| **Aerospace Systems Design Investigation** <br> Represents aerospace systems research, Python, SQL, databases and data-driven engineering analysis. |
+| **Aerospace Systems Design Investigation** <br> Represents aerospace systems research, Python, SQL, databases, and data-driven engineering analysis. |
 
 ---
 

@@ -120,14 +120,6 @@ The tools change with the problem. The approach does not: understand the system,
 
 ---
 
-## HOW I APPROACH ENGINEERING
-
-The tools change with the problem, but the process remains consistent: understand what exists, investigate what matters, build carefully, validate against evidence, and improve from what you learn.
-
-<img src="assets/visuals/engineering-approach.svg" width="100%" alt="Engineering Approach Workflow" />
-
----
-
 ## KEY PROJECTS
 
 | 🚀 [**Project GARUD**](https://github.com/Tanish0224/garud-tvc-rocket) |

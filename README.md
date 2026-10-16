@@ -4,7 +4,7 @@ I am an engineer who enjoys understanding how complex systems work, then figurin
 
 My journey has taken me through aerospace, defense, mechanical design, simulation, computation, programming, data, and hands-on engineering. On the surface, these experiences may appear distinct. To me, however, they are connected by a single thread: **a desire to understand more than what is immediately visible.**
 
-I enjoy moving between ideas and implementation—designing a component, writing code, analyzing data, running a simulation, or building physical hardware. Regardless of the tool, the process remains the same: design, analyze, build, test, and ask what can be improved.
+I enjoy moving between ideas and implementation - designing a component, writing code, analyzing data, running a simulation, or building physical hardware. Regardless of the tool, the process remains the same: design, analyze, build, test, and ask what can be improved.
 
 Aerospace is where my journey began, but I am drawn to difficult problems and multidisciplinary systems across domains. Engineering is the thread that connects everything I do.
 

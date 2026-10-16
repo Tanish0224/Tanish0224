@@ -10,6 +10,32 @@ Aerospace is where my journey began, but I am drawn to difficult problems and mu
 
 ---
 
+## WHAT I WORK WITH
+
+The tools change with the problem. The approach does not: understand the system, break the problem down, and keep going until the next question is worth asking.
+
+**Design & Engineering**  
+<br>
+<img src="assets/logos/solidworks.png" height="42" title="SolidWorks" /> &nbsp;&nbsp; <img src="assets/logos/siemens-nx.png" height="42" title="Siemens NX" /> &nbsp;&nbsp; <img src="assets/logos/fusion.png" height="42" title="Fusion 360" /> &nbsp;&nbsp; <img src="assets/logos/ansys.png" height="42" title="ANSYS" /> &nbsp;&nbsp; <img src="assets/logos/rocksim.svg" height="42" title="RockSim" />
+<br><br>
+
+**Simulation & Analysis**  
+<br>
+<img src="assets/logos/matlab.svg" height="42" title="MATLAB" /> &nbsp;&nbsp; <img src="assets/logos/simulink.svg" height="42" title="Simulink" /> &nbsp;&nbsp; <img src="assets/logos/paraview.png" height="42" title="ParaView" /> &nbsp;&nbsp; <img src="assets/logos/incompact3d.svg" height="42" title="Incompact3D" /> &nbsp;&nbsp; <img src="assets/logos/tecplot.png" height="42" title="Tecplot" />
+<br><br>
+
+**Programming & Computing**  
+<br>
+<img src="assets/logos/python.svg" height="42" title="Python" /> &nbsp;&nbsp; <img src="assets/logos/c.svg" height="42" title="C" /> &nbsp;&nbsp; <img src="assets/logos/cplusplus.svg" height="42" title="C++" /> &nbsp;&nbsp; <img src="assets/logos/cuda.svg" height="42" title="CUDA" /> &nbsp;&nbsp; <img src="assets/logos/mpi.svg" height="42" title="MPI" />
+<br><br>
+
+**Data & Workflow**  
+<br>
+<img src="assets/logos/sql.png" height="42" title="SQL" /> &nbsp;&nbsp; <img src="assets/logos/pandas.svg" height="42" title="Pandas" /> &nbsp;&nbsp; <img src="assets/logos/numpy.svg" height="42" title="NumPy" /> &nbsp;&nbsp; <img src="assets/logos/matplotlib.svg" height="42" title="Matplotlib" /> &nbsp;&nbsp; <img src="assets/logos/git.svg" height="42" title="Git" /> &nbsp;&nbsp; <img src="assets/logos/github.svg" height="42" title="GitHub" />
+<br><br>
+
+---
+
 ## HOW I GOT HERE
 
 ### 01 | WHERE IT STARTED
@@ -77,32 +103,6 @@ Whether working with an existing computational workflow, a physical system, a CA
 *   **Question assumptions** and find out what the existing system is *actually* doing.
 
 Only then is there a trustworthy foundation for extending the work. IIT Kanpur is the current chapter of that journey—a willingness to keep choosing problems that demand more from me than the version of myself that arrived here.
-
----
-
-## WHAT I WORK WITH
-
-The tools change with the problem. The approach does not: understand the system, break the problem down, and keep going until the next question is worth asking.
-
-**Design & Engineering**  
-<br>
-<img src="assets/logos/solidworks.png" height="42" title="SolidWorks" /> &nbsp;&nbsp; <img src="assets/logos/siemens-nx.png" height="42" title="Siemens NX" /> &nbsp;&nbsp; <img src="assets/logos/fusion.png" height="42" title="Fusion 360" /> &nbsp;&nbsp; <img src="assets/logos/ansys.png" height="42" title="ANSYS" /> &nbsp;&nbsp; <img src="assets/logos/rocksim.svg" height="42" title="RockSim" />
-<br><br>
-
-**Simulation & Analysis**  
-<br>
-<img src="assets/logos/matlab.svg" height="42" title="MATLAB" /> &nbsp;&nbsp; <img src="assets/logos/simulink.svg" height="42" title="Simulink" /> &nbsp;&nbsp; <img src="assets/logos/paraview.png" height="42" title="ParaView" /> &nbsp;&nbsp; <img src="assets/logos/incompact3d.svg" height="42" title="Incompact3D" /> &nbsp;&nbsp; <img src="assets/logos/tecplot.png" height="42" title="Tecplot" />
-<br><br>
-
-**Programming & Computing**  
-<br>
-<img src="assets/logos/python.svg" height="42" title="Python" /> &nbsp;&nbsp; <img src="assets/logos/c.svg" height="42" title="C" /> &nbsp;&nbsp; <img src="assets/logos/cplusplus.svg" height="42" title="C++" /> &nbsp;&nbsp; <img src="assets/logos/cuda.svg" height="42" title="CUDA" /> &nbsp;&nbsp; <img src="assets/logos/mpi.svg" height="42" title="MPI" />
-<br><br>
-
-**Data & Workflow**  
-<br>
-<img src="assets/logos/sql.png" height="42" title="SQL" /> &nbsp;&nbsp; <img src="assets/logos/pandas.svg" height="42" title="Pandas" /> &nbsp;&nbsp; <img src="assets/logos/numpy.svg" height="42" title="NumPy" /> &nbsp;&nbsp; <img src="assets/logos/matplotlib.svg" height="42" title="Matplotlib" /> &nbsp;&nbsp; <img src="assets/logos/git.svg" height="42" title="Git" /> &nbsp;&nbsp; <img src="assets/logos/github.svg" height="42" title="GitHub" />
-<br><br>
 
 ---
 

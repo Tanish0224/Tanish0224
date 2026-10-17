@@ -44,6 +44,12 @@ The tools change with the problem. The approach does not: understand the system,
 
 <br>
 
+| 🌀 [**Open-Fan Rotor Blade**](https://github.com/Tanish0224/Open-Fan-Rotor) |
+| :--- |
+| **Swept Open-Fan Rotor Design & Analysis** <br> Covers 3D CAD modelling and assembly of a swept rotor blade, aerodynamic performance analysis using ANSYS Fluent, and preliminary structural assessment of the blade-root using ANSYS MAPDL. |
+
+<br>
+
 | ⚡ [**GPU-Accelerated CFD**](https://github.com/Tanish0224/gpu-accelerated-cfd) |
 | :--- |
 | **High-Performance GPU Compressible Flow Solver** <br> Represents computational engineering, HPC, GPU programming, CUDA, CuPy, and performance optimization. |

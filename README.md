@@ -36,6 +36,26 @@ The tools change with the problem. The approach does not: understand the system,
 
 ---
 
+## KEY PROJECTS
+
+| 🚀 [**Project GARUD**](https://github.com/Tanish0224/garud-tvc-rocket) |
+| :--- |
+| **Thrust-Vector-Controlled Model Rocket** <br> Represents multidisciplinary systems engineering, mechanical/CAD design, fabrication, and physical hardware integration. |
+
+<br>
+
+| ⚡ [**GPU-Accelerated CFD**](https://github.com/Tanish0224/gpu-accelerated-cfd) |
+| :--- |
+| **High-Performance GPU Compressible Flow Solver** <br> Represents computational engineering, HPC, GPU programming, CUDA, CuPy, and performance optimization. |
+
+<br>
+
+| 🚁 [**VTOL UAV Performance Analysis**](https://github.com/Tanish0224/vtol-uav-performance-analysis) |
+| :--- |
+| **Aerospace Systems Design Investigation** <br> Represents aerospace systems research, Python, SQL, databases, and data-driven engineering analysis. |
+
+---
+
 ## HOW I GOT HERE
 
 ### 01 | WHERE IT STARTED
@@ -103,26 +123,6 @@ Whether working with an existing computational workflow, a physical system, a CA
 *   **Question assumptions** and find out what the existing system is *actually* doing.
 
 Only then is there a trustworthy foundation for extending the work. IIT Kanpur is the current chapter of that journey—a willingness to keep choosing problems that demand more from me than the version of myself that arrived here.
-
----
-
-## KEY PROJECTS
-
-| 🚀 [**Project GARUD**](https://github.com/Tanish0224/garud-tvc-rocket) |
-| :--- |
-| **Thrust-Vector-Controlled Model Rocket** <br> Represents multidisciplinary systems engineering, mechanical/CAD design, fabrication, and physical hardware integration. |
-
-<br>
-
-| ⚡ [**GPU-Accelerated CFD**](https://github.com/Tanish0224/gpu-accelerated-cfd) |
-| :--- |
-| **High-Performance GPU Compressible Flow Solver** <br> Represents computational engineering, HPC, GPU programming, CUDA, CuPy, and performance optimization. |
-
-<br>
-
-| 🚁 [**VTOL UAV Performance Analysis**](https://github.com/Tanish0224/vtol-uav-performance-analysis) |
-| :--- |
-| **Aerospace Systems Design Investigation** <br> Represents aerospace systems research, Python, SQL, databases, and data-driven engineering analysis. |
 
 ---
 

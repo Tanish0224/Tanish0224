@@ -1,12 +1,16 @@
 ﻿# Engineering begins where the obvious answer ends!
 
-I am an engineer who enjoys understanding how complex systems work, then figuring out how to make them work better.
+I am an aerospace engineer who enjoys understanding how complex systems work, then figuring out how to make them work better.
 
-My journey has taken me through aerospace, defense, mechanical design, simulation, computation, programming, data, and hands-on engineering. On the surface, these experiences may appear distinct. To me, however, they are connected by a single thread: **a desire to understand more than what is immediately visible.**
+My journey has taken me through aerospace, mechanical design, simulation, computation, data analysis and hands-on engineering. These experiences may appear distinct, but they are connected by a common thread: **a desire to understand what lies beneath the surface of a problem, rather than stopping at the obvious answer.**
 
-I enjoy moving between ideas and implementation - designing a component, writing code, analyzing data, running a simulation, or building physical hardware. Regardless of the tool, the process remains the same: design, analyze, build, test, and ask what can be improved.
+I enjoy moving between ideas and implementation — designing a component, writing code, analysing data, running a simulation or building physical hardware. The tools change with the problem; my approach remains the same: design, analyse, build, test and look for ways to improve.
 
-Aerospace is where my journey began, but I am drawn to difficult problems and multidisciplinary systems across domains. Engineering is the thread that connects everything I do.
+Some of my most valuable lessons have come from working with people who approach problems differently from me. I enjoy exchanging ideas, learning from unfamiliar perspectives and discovering approaches I might not have considered on my own. Every project, collaboration and setback offers something to learn from, and I try to carry those lessons into whatever I take on next.
+
+I also enjoy taking ownership of ideas and seeing them through — bringing different pieces together, working through challenges and learning from the gap between what was planned and what actually works.
+
+Aerospace is where my journey began, and it remains the foundation of my engineering perspective. I am drawn to challenging problems, unfamiliar disciplines and opportunities to turn curiosity into something tangible.
 
 ---
 

@@ -4,11 +4,11 @@ I am an aerospace engineer who enjoys understanding how complex systems work, th
 
 My journey has taken me through aerospace, mechanical design, simulation, computation, data analysis and hands-on engineering. These experiences may appear distinct, but they are connected by a common thread: **a desire to understand what lies beneath the surface of a problem, rather than stopping at the obvious answer.**
 
-I enjoy moving between ideas and implementation: designing a component, writing code, analysing data, running a simulation or building physical hardware. The tools change with the problem; my approach remains the same: design, analyse, build, test and look for ways to improve.
+I enjoy moving between ideas and implementation; designing a component, writing code, analysing data, running a simulation or building physical hardware. The tools change with the problem; my approach remains the same: design, analyse, build, test and look for ways to improve.
 
 Some of my most valuable lessons have come from working with people who approach problems differently from me. I enjoy exchanging ideas, learning from unfamiliar perspectives and discovering approaches I might not have considered on my own. Every project, collaboration and setback offers something to learn from, and I try to carry those lessons into whatever I take on next.
 
-I also enjoy taking ownership of ideas and seeing them through: bringing different pieces together, working through challenges and learning from the gap between what was planned and what actually works.
+I also enjoy taking ownership of ideas and seeing them through; bringing different pieces together, working through challenges and learning from the gap between what was planned and what actually works.
 
 Aerospace is where my journey began, and it remains the foundation of my engineering perspective. I am drawn to challenging problems, unfamiliar disciplines and opportunities to turn curiosity into something tangible.
 
@@ -66,75 +66,19 @@ The tools change with the problem. The approach does not: understand the system,
 
 ---
 
-## HOW I GOT HERE
+## THE PATH SO FAR
 
-### 01 | WHERE IT STARTED
-**Curiosity needed somewhere to go**
+*I've learned as much from people, setbacks and unanswered questions as from the things that worked.*
 
-My first real exposure to engineering beyond the classroom came through Space Technology and Aeronautical Rocketry (STAR). Until then, engineering had largely existed as equations, theories, and problems with known answers. STAR changed that. 
+- **STAR — When theory met reality.** My first hands-on experiences with aerospace showed me that understanding how something should work is only the beginning. There is a different kind of learning that happens when you start building, testing and figuring out why things don't go as planned.
 
-For the first time, I was around systems that had to be assembled, tested, and made to work. It taught me a lesson that has stayed with me: **there is a difference between understanding how something should work and actually making it work.** 
+- **HAL Nashik — Seeing beyond the individual parts.** Being around aircraft and their subsystems gave me a new appreciation for the people, disciplines and decisions behind a complex machine. I began to see engineering less as isolated components and more as how everything comes together.
 
-Things do not always fit perfectly, components interact in unexpected ways, and physical systems behave differently than they do on paper. This was where engineering became an iterative process for me: understanding, experimenting, failing, improving, and trying again.
+- **L&T Defence — Following curiosity further.** What began as a study of VTOL UAVs left me curious about why different aircraft were designed the way they were. I kept digging, researching more than 200 platforms and using Python and SQL to organise the data and explore patterns across their designs.
 
-### 02 | WHEN ENGINEERING BECAME REAL
-**Seeing the scale behind the system**
+- **GARUD — Learning alongside others.** Building a thrust-vector-controlled model rocket with a team taught me that good ideas rarely unfold exactly as imagined. Different perspectives, practical constraints and unexpected problems all become part of the journey. Some of the most valuable lessons come from working through them together.
 
-My experience at HAL Nashik gave me a different perspective. I had studied aircraft systems and components before, but seeing large aerospace systems up close showed me how individual disciplines fit into a much larger whole. 
-
-I was exposed to environments involving aircraft propulsion, structures, avionics, radar systems, subsystem integration, and overhaul operations. What stood out was that a complex engineering product does not exist simply because one component is designed well. It exists because the entire system works together:
-
-*   **Design & Manufacturing**
-*   **Assembly & Inspection**
-*   **Integration, Testing & Maintenance**
-
-That shifted how I viewed engineering. I began thinking less about individual components in isolation and more about the systems and interfaces connecting them. Real engineering happens at the interfaces between disciplines.
-
-### 03 | FOLLOWING CURIOSITY FURTHER
-**When a requirement became an investigation**
-
-At L&T Defence, I worked on a research problem involving VTOL UAVs. The original task was to study existing systems and use that information to support requirement development.
-
-However, I wanted to understand the wider design space rather than simply collect examples. I asked broader questions:
-*   Why did different aircraft use particular configurations?
-*   How were payload, endurance, dimensions, and propulsion related?
-*   What trade-offs were designers making?
-
-What began as a requirement study became a larger investigation. Using Python and SQL, I built a structured database containing **approximately 195 usable VTOL UAV records from more than 200 researched platforms**. 
-
-This allowed the data to be queried and compared to identify patterns across the design space. It reinforced a lesson that has followed me since: the original question is not always the whole problem. Sometimes you need to look beyond the immediate requirement before deciding what the system is really telling you.
-
-### 04 | GARUD
-**Thrust-Vector-Controlled Model Rocket**
-
-GARUD was where several parts of my engineering journey came together. Collaborating within a four-member team, we set out to develop a thrust-vector-controlled (TVC) model rocket and take it from concept to a functioning physical system. 
-
-That meant treating engineering as a connected chain rather than a collection of separate tasks:
-*   **Concept & Simulation**
-*   **Design & Analysis**
-*   **Fabrication & Integration**
-*   **Testing**
-
-While the team tackled trajectory analysis, structural considerations, and control modeling, I took specific ownership of the **mechanical and CAD design**—focusing on the TVC mechanism and the deployable landing-leg assembly.
-
-The most valuable part of GARUD was what happened between the development stages. A digital CAD model can look correct on a screen but be impossible to manufacture. Parts that fit perfectly in software must still account for physical tolerances, wiring, and assembly constraints. GARUD forced me to think about engineering as an end-to-end process where every decision eventually has to survive the transition to physical hardware. 
-
-### 05 | IIT KANPUR
-**Choosing the Harder Room**
-
-Coming to IIT Kanpur was a deliberate decision to place myself in a more demanding environment. I came to work on harder problems, build stronger technical foundations, and be challenged by people and ideas that change the way I think.
-
-My current work involves computational engineering and fluid mechanics, but one principle has become increasingly important to me: **before trying to change a complex system, first understand it.**
-
-Whether working with an existing computational workflow, a physical system, a CAD design, a dataset, or a large codebase, the temptation is often to immediately modify something. I have learned to follow a more rigorous sequence:
-*   **Understand** how the pieces are connected.
-*   **Establish a baseline** and reproduce known behavior.
-*   **Validate** the model against evidence.
-*   **Question assumptions** and find out what the existing system is *actually* doing.
-
-Only then is there a trustworthy foundation for extending the work. IIT Kanpur is the current chapter of that journey—a willingness to keep choosing problems that demand more from me than the version of myself that arrived here.
-
----
+- **IIT Kanpur — Finding new ways to explore.** Since then, my world has expanded across aerospace research, design, analysis, programming, data and computational tools. I enjoy moving between them, learning what each can reveal and finding connections I might have missed otherwise. The more I learn, the more I realise that understanding a problem rarely means reaching the end of the journey, it often means being ready to ask a better question.
 
 ## HOW TO REACH ME
 
